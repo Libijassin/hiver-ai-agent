@@ -1,0 +1,23 @@
+{
+  "trivial_baseline": {
+    "accuracy": 0.12,
+    "macro_f1": 0.0238,
+    "weighted_f1": 0.0257,
+    "escalation_accuracy": 0.885,
+    "escalation_f1": 0.0
+  },
+  "simple_baseline": {
+    "accuracy": 0.445,
+    "macro_f1": 0.4355,
+    "weighted_f1": 0.4364,
+    "escalation_accuracy": 0.115,
+    "escalation_f1": 0.2063
+  },
+  "agent": {
+    "accuracy": 0.61,
+    "macro_f1": 0.6127,
+    "weighted_f1": 0.6111,
+    "escalation_accuracy": 0.37,
+    "escalation_f1": 0.137
+  }
+}

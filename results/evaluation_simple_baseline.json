@@ -1,0 +1,208 @@
+{
+  "model": "simple_baseline",
+  "intent_classification": {
+    "accuracy": 0.445,
+    "macro_f1": 0.4355,
+    "weighted_f1": 0.4364,
+    "per_intent": {
+      "Account / Login": {
+        "precision": 0.2105,
+        "recall": 0.1818,
+        "f1": 0.1951,
+        "support": 22,
+        "tp": 4,
+        "fp": 15,
+        "fn": 18
+      },
+      "App / Technical Issue": {
+        "precision": 0.2632,
+        "recall": 0.2273,
+        "f1": 0.2439,
+        "support": 22,
+        "tp": 5,
+        "fp": 14,
+        "fn": 17
+      },
+      "Billing / Subscription": {
+        "precision": 0.5278,
+        "recall": 0.8636,
+        "f1": 0.6552,
+        "support": 22,
+        "tp": 19,
+        "fp": 17,
+        "fn": 3
+      },
+      "Complaint": {
+        "precision": 0.7222,
+        "recall": 0.5909,
+        "f1": 0.65,
+        "support": 22,
+        "tp": 13,
+        "fp": 5,
+        "fn": 9
+      },
+      "Content / Library": {
+        "precision": 0.6087,
+        "recall": 0.6364,
+        "f1": 0.6222,
+        "support": 22,
+        "tp": 14,
+        "fp": 9,
+        "fn": 8
+      },
+      "Device / Connectivity": {
+        "precision": 0.36,
+        "recall": 0.4091,
+        "f1": 0.383,
+        "support": 22,
+        "tp": 9,
+        "fp": 16,
+        "fn": 13
+      },
+      "General Inquiry": {
+        "precision": 0.2273,
+        "recall": 0.2273,
+        "f1": 0.2273,
+        "support": 22,
+        "tp": 5,
+        "fp": 17,
+        "fn": 17
+      },
+      "Other": {
+        "precision": 0.5455,
+        "recall": 0.5,
+        "f1": 0.5217,
+        "support": 24,
+        "tp": 12,
+        "fp": 10,
+        "fn": 12
+      },
+      "Playback / Streaming": {
+        "precision": 0.5,
+        "recall": 0.3636,
+        "f1": 0.4211,
+        "support": 22,
+        "tp": 8,
+        "fp": 8,
+        "fn": 14
+      }
+    },
+    "confusion_matrix": {
+      "Account / Login": {
+        "Account / Login": 4,
+        "App / Technical Issue": 2,
+        "Billing / Subscription": 5,
+        "Complaint": 0,
+        "Content / Library": 2,
+        "Device / Connectivity": 1,
+        "General Inquiry": 5,
+        "Other": 2,
+        "Playback / Streaming": 1
+      },
+      "App / Technical Issue": {
+        "Account / Login": 1,
+        "App / Technical Issue": 5,
+        "Billing / Subscription": 3,
+        "Complaint": 2,
+        "Content / Library": 1,
+        "Device / Connectivity": 3,
+        "General Inquiry": 4,
+        "Other": 2,
+        "Playback / Streaming": 1
+      },
+      "Billing / Subscription": {
+        "Account / Login": 1,
+        "App / Technical Issue": 0,
+        "Billing / Subscription": 19,
+        "Complaint": 0,
+        "Content / Library": 0,
+        "Device / Connectivity": 0,
+        "General Inquiry": 0,
+        "Other": 2,
+        "Playback / Streaming": 0
+      },
+      "Complaint": {
+        "Account / Login": 0,
+        "App / Technical Issue": 2,
+        "Billing / Subscription": 0,
+        "Complaint": 13,
+        "Content / Library": 1,
+        "Device / Connectivity": 2,
+        "General Inquiry": 1,
+        "Other": 2,
+        "Playback / Streaming": 1
+      },
+      "Content / Library": {
+        "Account / Login": 1,
+        "App / Technical Issue": 2,
+        "Billing / Subscription": 0,
+        "Complaint": 1,
+        "Content / Library": 14,
+        "Device / Connectivity": 2,
+        "General Inquiry": 1,
+        "Other": 0,
+        "Playback / Streaming": 1
+      },
+      "Device / Connectivity": {
+        "Account / Login": 2,
+        "App / Technical Issue": 1,
+        "Billing / Subscription": 6,
+        "Complaint": 1,
+        "Content / Library": 0,
+        "Device / Connectivity": 9,
+        "General Inquiry": 2,
+        "Other": 0,
+        "Playback / Streaming": 1
+      },
+      "General Inquiry": {
+        "Account / Login": 4,
+        "App / Technical Issue": 4,
+        "Billing / Subscription": 1,
+        "Complaint": 1,
+        "Content / Library": 1,
+        "Device / Connectivity": 2,
+        "General Inquiry": 5,
+        "Other": 2,
+        "Playback / Streaming": 2
+      },
+      "Other": {
+        "Account / Login": 4,
+        "App / Technical Issue": 2,
+        "Billing / Subscription": 0,
+        "Complaint": 0,
+        "Content / Library": 1,
+        "Device / Connectivity": 2,
+        "General Inquiry": 2,
+        "Other": 12,
+        "Playback / Streaming": 1
+      },
+      "Playback / Streaming": {
+        "Account / Login": 2,
+        "App / Technical Issue": 1,
+        "Billing / Subscription": 2,
+        "Complaint": 0,
+        "Content / Library": 3,
+        "Device / Connectivity": 4,
+        "General Inquiry": 2,
+        "Other": 0,
+        "Playback / Streaming": 8
+      }
+    },
+    "total": 200,
+    "correct": 89
+  },
+  "escalation": {
+    "accuracy": 0.115,
+    "escalation_precision": 0.115,
+    "escalation_recall": 1.0,
+    "escalation_f1": 0.2063,
+    "tp": 23,
+    "fp": 177,
+    "fn": 0,
+    "tn": 0,
+    "total": 200,
+    "escalation_rate": 1.0,
+    "golden_escalation_rate": 0.115
+  },
+  "reply_quality": {}
+}

@@ -1,0 +1,24 @@
+{
+  "dataset": "Customer Support on Twitter (thoughtvector)",
+  "brand": "SpotifyCares",
+  "golden_set_size": 200,
+  "sampling_method": "Stratified sampling across intents from evaluation split",
+  "labelling_method": "Systematic keyword/content analysis based on taxonomy inclusion/exclusion criteria. Each customer message is inspected for intent-specific signals (keywords, phrases, patterns). Priority ordering: Complaint signals checked first (2+ emotional signals required), then topic-specific signals scored by hit count. Fallback: brand response content used as secondary signal. Ambiguous examples receive notes explaining the labelling decision.",
+  "ambiguity_handling": "Ambiguous examples (e.g., billing + account overlap) are labelled based on the primary issue and receive a notes field documenting the ambiguity. Messages with no strong signal are labelled as Other.",
+  "split_strategy": "Evaluation pairs are deterministically separated from reference pairs using hash-based splitting on customer_tweet_id. Golden set drawn exclusively from evaluation split. Zero overlap with retrieval corpus verified.",
+  "intent_distribution": {
+    "Account / Login": 22,
+    "Billing / Subscription": 22,
+    "Playback / Streaming": 22,
+    "App / Technical Issue": 22,
+    "Content / Library": 22,
+    "Device / Connectivity": 22,
+    "General Inquiry": 22,
+    "Complaint": 22,
+    "Other": 24
+  },
+  "action_distribution": {
+    "AUTO_HANDLED": 177,
+    "ESCALATE": 23
+  }
+}

@@ -1,0 +1,25 @@
+# Environment & Secrets
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Large Datasets (>100MB limit on GitHub)
+data/raw/twcs/twcs.csv
+data/raw/twcs/
+*.csv
+
+# Cache & Local Storage
+data/processed/retriever/*.pkl
+*.pkl
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

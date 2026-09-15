@@ -1,0 +1,2402 @@
+[
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.13605484108056318,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.11628662875276781,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13324708196044918,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.15404667267094316,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.12748001834940254,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.19620396726359518,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.131282212697483,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.13440705893569518,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.1244025069150762,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.1499095218282011,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.13132011561472848,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.15982689503072445,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.13829319700219903,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14372081934386122,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.12723425225434534,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14880717495353693,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.12985465218662018,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.12477499918964706,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.11628662875276781,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.14031181843636628,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.11711146817217458,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.12534614471854147,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.19137433515766872,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.16992862871994685,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.15538306524259615,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14254443148077092,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.210576783456362,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.21)",
+    "escalation_factors": [
+      "Low confidence (0.21)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.2159134842287763,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.12453378576695978,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1835754863563153,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.12446738863158793,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1595156548854667,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.20182317533677083,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.14312800578405205,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.22128223932295868,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.13419007600907404,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1604907306333535,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1769047148829243,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.17629553178870747,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1514158566005362,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.17668813141486453,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.218640378033785,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1403605393500822,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1815313926312508,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.15039846304885274,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13958113872287245,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.14942345787943212,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.13309773349054815,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1255446605405284,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.12104854630868686,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.21503461024875498,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.15848662004430805,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.1380515042145634,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.19008227177256024,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.13268859106445927,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.12334720174418373,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.15575578937643025,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.1333247382900053,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.14346062904847917,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.20131486718362854,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.22979228667275198,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.23)",
+    "escalation_factors": [
+      "Low confidence (0.23)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.2560777426966411,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.26)",
+    "escalation_factors": [
+      "Low confidence (0.26)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.25937329403344894,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.26)",
+    "escalation_factors": [
+      "Low confidence (0.26)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.17723930733809418,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.13496448194640828,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13574244076508576,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.1515070585227633,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.24583078961711302,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.25)",
+    "escalation_factors": [
+      "Low confidence (0.25)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.13867009294949217,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.12426537179324511,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.11711146817217458,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.1841764095598074,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.16203505837915444,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.14656726281437427,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.16943328325579862,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.134949928786978,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.1424024460995181,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1427192682612432,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.14467702146724248,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.1307412741049464,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.135932945425093,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.17997948606495826,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.12837542774255473,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.15475058756345555,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.15386040655268826,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.1701237616412657,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.15987191667099657,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.1255955909720423,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.12937959680280225,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.20683694645462594,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.21)",
+    "escalation_factors": [
+      "Low confidence (0.21)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.15857780005092287,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.15455571306216326,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.13202723648387002,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.18855872683916097,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.16165047516373166,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.17233305347643194,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.1434820660367575,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.1305951425371685,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.17643938797494949,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.2635794018813486,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.26)",
+    "escalation_factors": [
+      "Low confidence (0.26)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.2568000678885325,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.26)",
+    "escalation_factors": [
+      "Low confidence (0.26)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.13852748758395061,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.15484051923581027,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.14781400009335002,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.14639665479090994,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.15891545897334622,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.13785714484402994,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.14972702200236954,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.14787058491169022,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.17181044407347185,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1278980519686021,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.14280637405874033,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.15982689503072445,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.21720166142709643,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.2170692816087228,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.1388382003048532,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.19106411313155786,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.14961185028362045,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.16905838943328852,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.12086291819563644,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.2208355064521122,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.22462319245886847,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.13401350605497458,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.23494972273057996,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.23)",
+    "escalation_factors": [
+      "Low confidence (0.23)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.15511110384646445,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.14026769209603812,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13583569002046647,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.16543594449376245,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.167400850031882,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.12605272933826334,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.15179091705376005,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.15248057571531098,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.13300507556576235,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.13257631942616752,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Billing / Subscription",
+    "confidence": 0.13563207238726085,
+    "generated_reply": "Thank you for reaching out about billing / subscription. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.11643336631682051,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.13989719748901028,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.15917405180005406,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.13530090450409016,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.1299693908248484,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.14369953949270645,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.21706288979854818,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.22510175308727706,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.23)",
+    "escalation_factors": [
+      "Low confidence (0.23)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14785824104689116,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13740029465301415,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.13450920290164237,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.17423908881992303,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.17066999187652118,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14207828472164727,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.12956449006232454,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.14655974641218622,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.1418791049111173,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.11578112085475789,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.12822198835574466,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1498729851964781,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.20845134014238423,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.21)",
+    "escalation_factors": [
+      "Low confidence (0.21)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1486325352969455,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.12914743755725847,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.20325948527292642,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.4730620261129774,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.47)",
+    "escalation_factors": [
+      "Low confidence (0.47)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.17435537734055945,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.12850767609587682,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.21733244048358868,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1358907039116268,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1844422696813938,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.18)",
+    "escalation_factors": [
+      "Low confidence (0.18)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.12580845997285356,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.16367119503222788,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1689742626762246,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.15980857199114526,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.13127995796199185,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.1923809196572094,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.19710810285059682,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.19553753499743398,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.20)",
+    "escalation_factors": [
+      "Low confidence (0.20)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.13375919275300946,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.17283436144789166,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Complaint",
+    "confidence": 0.15195412666597904,
+    "generated_reply": "Thank you for reaching out about complaint. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.12873566694547814,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.11643336631682051,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.12154567466355849,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.3623015533598687,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.36)",
+    "escalation_factors": [
+      "Low confidence (0.36)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.1434130298090878,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.1260153771240947,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Device / Connectivity",
+    "confidence": 0.13045749758516156,
+    "generated_reply": "Thank you for reaching out about device / connectivity. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.19209466660649108,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.26636038617276314,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.27)",
+    "escalation_factors": [
+      "Low confidence (0.27)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.14089794540207912,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Account / Login",
+    "confidence": 0.11643336631682051,
+    "generated_reply": "Thank you for reaching out about account / login. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.26636038617276314,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.27)",
+    "escalation_factors": [
+      "Low confidence (0.27)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Content / Library",
+    "confidence": 0.16320711498482926,
+    "generated_reply": "Thank you for reaching out about content / library. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.16)",
+    "escalation_factors": [
+      "Low confidence (0.16)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.15232910510009803,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.14569265490189431,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.15)",
+    "escalation_factors": [
+      "Low confidence (0.15)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.11628662875276781,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.21691539777375385,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.2191976455559277,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.22)",
+    "escalation_factors": [
+      "Low confidence (0.22)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "General Inquiry",
+    "confidence": 0.1403110595257705,
+    "generated_reply": "Thank you for reaching out about general inquiry. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.14)",
+    "escalation_factors": [
+      "Low confidence (0.14)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.2773922586477889,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.28)",
+    "escalation_factors": [
+      "Low confidence (0.28)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.13317849637034931,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.13)",
+    "escalation_factors": [
+      "Low confidence (0.13)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "App / Technical Issue",
+    "confidence": 0.1741740407557965,
+    "generated_reply": "Thank you for reaching out about app / technical issue. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.17)",
+    "escalation_factors": [
+      "Low confidence (0.17)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Other",
+    "confidence": 0.19440045846299117,
+    "generated_reply": "Thank you for reaching out about other. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.19)",
+    "escalation_factors": [
+      "Low confidence (0.19)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  },
+  {
+    "predicted_intent": "Playback / Streaming",
+    "confidence": 0.12068291624861673,
+    "generated_reply": "Thank you for reaching out about playback / streaming. Please DM us your details so we can help.",
+    "action": "ESCALATE",
+    "escalation_reason": "Low confidence (0.12)",
+    "escalation_factors": [
+      "Low confidence (0.12)"
+    ],
+    "retrieved_examples": [],
+    "mode": "simple_baseline"
+  }
+]

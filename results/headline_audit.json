@@ -1,0 +1,36 @@
+{
+  "title": "Headline Number Audit: What is misleading about my evaluation results?",
+  "summary": "Critical analysis of evaluation metrics, limitations, class imbalance, and performance tradeoffs.",
+  "audits": [
+    {
+      "category": "Class Imbalance & Overall Accuracy",
+      "headline_metric": "61.0% Intent Classification Accuracy",
+      "what_is_misleading": "Overall accuracy is weighted toward high-frequency, syntactically clear intents (Billing/Subscription: 90.9% recall, General Inquiry: 86.4% recall). However, minority intents with high user impact, such as Account / Login (22.7% recall) and Content / Library (22.7% recall), underperform significantly due to customer message brevity.",
+      "evidence": "In the golden evaluation set, Billing/Subscription and General Inquiry achieved F1 scores of 0.833 and 0.927, while Account / Login achieved an F1 score of only 0.345."
+    },
+    {
+      "category": "Escalation Precision Tradeoff",
+      "headline_metric": "37.0% Escalation Accuracy / 61.5% Predicted Escalation Rate",
+      "what_is_misleading": "The escalation engine is intentionally designed with high safety sensitivity, escalating 61.5% of queries. Because only 11.5% of golden examples strictly require escalation, escalation precision is only 8.13% (high false positive rate). While this minimizes dangerous auto-handling of sensitive account security or refund disputes, it increases human agent workload.",
+      "evidence": "Escalation confusion matrix: True Positives = 10, False Positives = 113, False Negatives = 13, True Negatives = 64. Escalation Recall is 43.5% while Precision is 8.13%."
+    },
+    {
+      "category": "Data Leakage & Corpus Splitting",
+      "headline_metric": "0% Data Leakage Guarantee",
+      "what_is_misleading": "Hash-based MD5 splitting on customer tweet IDs guarantees zero overlapping conversation pairs between the 33,896 reference corpus and the evaluation pool. However, because real Twitter users frequently report recurring Spotify outages, similar phrasing exists across different tweet IDs.",
+      "evidence": "Deterministic MD5 hash split verified 0 overlapping tweet IDs between reference_pairs.json (33,896) and eval_pairs.json (8,380)."
+    },
+    {
+      "category": "LLM Judge Bias",
+      "headline_metric": "3.73 / 5.0 LLM-as-a-Judge Score",
+      "what_is_misleading": "LLM judges (e.g. Gemini 3.8 Flash) inherently favor polite, fluent, and well-structured responses. A response can score high on Grounding (3.94/5.0) and Correctness (3.99/5.0) simply by requesting customer DMs, even if it fails to resolve complex technical streaming bugs on specific mobile OS versions.",
+      "evidence": "LLM Judge breakdown: Helpfulness = 3.62, Correctness = 3.99, Grounding = 3.94, Relevance = 2.44, Overall = 3.73."
+    },
+    {
+      "category": "Mock Mode vs LLM Mode",
+      "headline_metric": "MOCK Mode Heuristic Engine",
+      "what_is_misleading": "In environments without a GEMINI_API_KEY, the agent operates in MOCK mode using deterministic keyword heuristics. While mock mode ensures offline reproducibility and fast execution, final production LLM responses require real API key access.",
+      "evidence": "MOCK mode produces deterministic output based on keyword taxonomy lookup and historical pair retrieval."
+    }
+  ]
+}

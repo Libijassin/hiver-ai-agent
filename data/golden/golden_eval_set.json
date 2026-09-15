@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "golden_0000",
+    "customer_tweet_id": "189662",
+    "customer_message": "I've done that twice already. It works for a day at best then stops.",
+    "conversation_context": "Got it! Can you DM us your account's email address? Also, is this happening over 3G/4G, WiFi, or both? /RA",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it! Can you DM us your account's email address? Also, is this happening over 3G/4G, WiFi, or both? /RA",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0001",
+    "customer_tweet_id": "2284919",
+    "customer_message": "still the same ):",
+    "conversation_context": "Got it. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0002",
+    "customer_tweet_id": "1426097",
+    "customer_message": "Hi, it didnt work",
+    "conversation_context": "Got it. Could you shoot us a DM with your account's username and email address? We'll take a look backstage /VK",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Could you shoot us a DM with your account's username and email address? We'll take a look backstage /VK",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0003",
+    "customer_tweet_id": "1464487",
+    "customer_message": "Spotify deleted my mom and brother from my family account.",
+    "conversation_context": "Got it. Can you DM us their account's email addresses? We'll take a look under the hood /AN",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Can you DM us their account's email addresses? We'll take a look under the hood /AN",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0004",
+    "customer_tweet_id": "116609",
+    "customer_message": "I have been trying to sing up for 3 days NOW but It seems that there is a problem I tried whit the app and safari, Nothing works.",
+    "conversation_context": "Hey there! Don't worry, we're here to help. Just to clarify, are you trying to sign up for a Spotify account or a subscription? /MT",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Don't worry, we're here to help. Just to clarify, are you trying to sign up for a Spotify account or a subscription? /MT",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0005",
+    "customer_tweet_id": "1061638",
+    "customer_message": "Am using up to date version of Spotify on my Google Pixel phone with EE. It's the only thing I use it on &amp; takes up 75% of my mob memory 😶",
+    "conversation_context": "Got it. Can you also fire over your account's email address or username via DM? We'll take a look backstage /RC",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Can you also fire over your account's email address or username via DM? We'll take a look backstage /RC",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0006",
+    "customer_tweet_id": "726221",
+    "customer_message": "Starting a petition to put It's So Easy by GNR back on Spotify because this sucks",
+    "conversation_context": "Hey Sidney! Can you let us know the country your account is set to? We'll have a look /LO",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Sidney! Can you let us know the country your account is set to? We'll have a look /LO",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0007",
+    "customer_tweet_id": "1818424",
+    "customer_message": "Hey , I'm not able to pay with my prepaid visa. I still have $30+ on it, it was working last month. Any hint ?",
+    "conversation_context": "Hey there! Help's here. Can you DM us your account's email address or username? We'll take a look backstage /PB",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Help's here. Can you DM us your account's email address or username? We'll take a look backstage /PB",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0008",
+    "customer_tweet_id": "137179",
+    "customer_message": "Is this new members only",
+    "conversation_context": "Hey Thomas! The 3 months for £0.99 offer is only available to new users. If your account reverted to Free before the 20th of October 2017, you can get the 3 months for £9.99 deal. Let us know if you have further questions /MA",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Thomas! The 3 months for £0.99 offer is only available to new users. If your account reverted to Free before the 20th of October 2017, you can get the 3 months for £9.99 deal. Let us know if you have further questions /MA",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0009",
+    "customer_tweet_id": "2950151",
+    "customer_message": "I’m listening to an 8 minute long EP y’all really couldn’t let me get through the shit before I heard an ad",
+    "conversation_context": "Hey there! Can you DM us your account's email address and username? We'll take a look backstage /AQ",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Can you DM us your account's email address and username? We'll take a look backstage /AQ",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0010",
+    "customer_tweet_id": "1492383",
+    "customer_message": "And that is the annoying part. I thought this was supposed to be a seamless experience.",
+    "conversation_context": "Sorry to hear that. Can you DM us your account's username or email address? We'll take a look backstage /AP",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Sorry to hear that. Can you DM us your account's username or email address? We'll take a look backstage /AP",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0011",
+    "customer_tweet_id": "1715262",
+    "customer_message": "It does not.",
+    "conversation_context": "Alright. Can you DM us your account's email address or username? Also, can you let us know which songs you're unable to play? /GT",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Alright. Can you DM us your account's email address or username? Also, can you let us know which songs you're unable to play? /GT",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0012",
+    "customer_tweet_id": "2307200",
+    "customer_message": "can you help me log in",
+    "conversation_context": "Hey Thomas! We've just replied to your DM. Let's continue chatting there /JL",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Thomas! We've just replied to your DM. Let's continue chatting there /JL",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0013",
+    "customer_tweet_id": "8228",
+    "customer_message": "i cant log in through facebook and everything is good on facebook send",
+    "conversation_context": "Hey Shyla, we're here to help! Could you DM us your account's email address? We'll take a look backstage for you /BX",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Shyla, we're here to help! Could you DM us your account's email address? We'll take a look backstage for you /BX",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0014",
+    "customer_tweet_id": "1245073",
+    "customer_message": "I no longer wanna use FB to login. (Breaking free). Read I have 2 delete account &amp; create new 1 to do that? Say it ain’t so.",
+    "conversation_context": "Hey Ingrid! The cavalry's here. Could you DM us your account's email address? We'll see what we can suggest /KB",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Ingrid! The cavalry's here. Could you DM us your account's email address? We'll see what we can suggest /KB",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0015",
+    "customer_tweet_id": "1877167",
+    "customer_message": "My account keeps saying that is being used in another place.. I have changed my password, but it keeps happening... Its annoying!",
+    "conversation_context": "Hey, help's here! Can you DM us your account's username or email address? We'll take a look under the hood /RS",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, help's here! Can you DM us your account's username or email address? We'll take a look under the hood /RS",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0016",
+    "customer_tweet_id": "496159",
+    "customer_message": "I figured it out....changed password and logged out everywhere....a phone number for customer service would have been great in this kind of situation!",
+    "conversation_context": "Hey Ronna, sorry for the delay! We're glad to hear that. If you ever need anything else, just shout and we'll come running 🏃 /JX",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Ronna, sorry for the delay! We're glad to hear that. If you ever need anything else, just shout and we'll come running 🏃 /JX",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0017",
+    "customer_tweet_id": "2047798",
+    "customer_message": "You need to fix it so an email tied to a closed facebook acct can be reused. Not making a new email just for spotify.",
+    "conversation_context": "Hi Michael! The calvary's here. Can you DM us your account's email address? Don't worry, we can come up with something to help out /ME",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Michael! The calvary's here. Can you DM us your account's email address? Don't worry, we can come up with something to help out /ME",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0018",
+    "customer_tweet_id": "1915073",
+    "customer_message": "and GOT7",
+    "conversation_context": "Got it. What country is your Spotify account set to? /MC",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. What country is your Spotify account set to? /MC",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0019",
+    "customer_tweet_id": "2572183",
+    "customer_message": "now I’m paying 10.69 a month without Hulu. Can you help me out",
+    "conversation_context": "Hey there! Can you DM us your account's username and email address? We'll take a look backstage /JX",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Can you DM us your account's username and email address? We'll take a look backstage /JX",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0020",
+    "customer_tweet_id": "70707",
+    "customer_message": "i have only Chrome... others are not allowed at office T_T",
+    "conversation_context": "We understand. Could you try if the same thing still happens even when using a different account? You can log in to our test account by entering the username \"css_test_1\" and password \"gU4edr6daKuT\". Keep us posted /DN",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We understand. Could you try if the same thing still happens even when using a different account? You can log in to our test account by entering the username \"css_test_1\" and password \"gU4edr6daKuT\". Keep us posted /DN",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0021",
+    "customer_tweet_id": "1156875",
+    "customer_message": "I've used ALL my credit 4 this n still I'm taking to a machine getting nowhere... it's not just me EVERYBODY gets ripped off",
+    "conversation_context": "Hey! Help's here. Can you DM us your account's email address? We'll take a look backstage /MG",
+    "intent": "Account / Login",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! Help's here. Can you DM us your account's email address? We'll take a look backstage /MG",
+    "notes": "Labelled as 'Account / Login' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0022",
+    "customer_tweet_id": "2420500",
+    "customer_message": "i’ve been charged twice this month for premium???",
+    "conversation_context": "Hey! Can you DM us your account's email address? We'll see what we can suggest /CB",
+    "intent": "Billing / Subscription",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! Can you DM us your account's email address? We'll see what we can suggest /CB",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0023",
+    "customer_tweet_id": "2305896",
+    "customer_message": "my premium lasts until mid December... why am I having to watch sponsors already?! 😒",
+    "conversation_context": "Hey Lauren! Help's here. Can you DM us your account's email address? We'll take a look backstage /RA",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Lauren! Help's here. Can you DM us your account's email address? We'll take a look backstage /RA",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0024",
+    "customer_tweet_id": "2562462",
+    "customer_message": "Hey Are you going to update your website or app so I can update my payment options?! The websites keeps crashing every time I click on the LOG IN button. Even clicked on the SPOTIFY PREMIUM FREE TRIAL option and it crashed. Please fix this soon!",
+    "conversation_context": "Hey there, help's here! Does using a different browser help? You might also want to try using an incognito window. Let us know how it goes /KL",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there, help's here! Does using a different browser help? You might also want to try using an incognito window. Let us know how it goes /KL",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0025",
+    "customer_tweet_id": "1717870",
+    "customer_message": "Will it be possible to use this offer for more than a year? I won’t be able to sustain the cost when it switches back to 10€ a month.",
+    "conversation_context": "Hey there. Could you send us a DM with your account's email address or username? We'll take a look backstage /QI",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there. Could you send us a DM with your account's email address or username? We'll take a look backstage /QI",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0026",
+    "customer_tweet_id": "1244499",
+    "customer_message": "... app on my laptop is not showing that I have a Premium account",
+    "conversation_context": "Hey, help's arrived! Could you DM your username and email address? We'll do some digging /JQ",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, help's arrived! Could you DM your username and email address? We'll do some digging /JQ",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0027",
+    "customer_tweet_id": "1490607",
+    "customer_message": "Spotify won't let me join family premium! Says I'm still on premium trail. Can't seem to contact Spotify either!",
+    "conversation_context": "Hi Michelle! Can you DM us your account's username or email address, along with a screenshot of the error message? We'll take a look backstage /MC",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Michelle! Can you DM us your account's username or email address, along with a screenshot of the error message? We'll take a look backstage /MC",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0028",
+    "customer_tweet_id": "1102968",
+    "customer_message": "That I was charged 3-4 times for the student. Is there a way that can be reversed ?",
+    "conversation_context": "Could you DM us your username or email address so we can take a look? /JU",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Could you DM us your username or email address so we can take a look? /JU",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0029",
+    "customer_tweet_id": "2175403",
+    "customer_message": "So premium is free now? You're not going to charge me next month? Great!",
+    "conversation_context": "Hi Gary, help's here! Can you DM us your account's email address? We'll take a look backstage /DV",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Gary, help's here! Can you DM us your account's email address? We'll take a look backstage /DV",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0030",
+    "customer_tweet_id": "2605011",
+    "customer_message": "Thanks! Trying to change payment method, but I have an ongoing support errand. I just tried changing the card validity year to 2046 (because the real year isn't accepted), and I got this extremely vague error message.",
+    "conversation_context": "Thanks for clearing that up. Can you try doing the steps at using a computer in an incognito window? Let us know how it goes /KM",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for clearing that up. Can you try doing the steps at using a computer in an incognito window? Let us know how it goes /KM",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0031",
+    "customer_tweet_id": "1421471",
+    "customer_message": "my email account suddenly got unregistered on my spotify and i cant use the premium service anymore while the invoice remains on my bill. Any solution? Need this to be solved asap.",
+    "conversation_context": "Hey! Can you fire over your account's email address or username via DM? We'll take a look backstage /RC",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! Can you fire over your account's email address or username via DM? We'll take a look backstage /RC",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0032",
+    "customer_tweet_id": "2861285",
+    "customer_message": "I had an account that I just bought premium with last night, and next I woke up it was my account was terminated, I just got premium. I don't even know what I did wrong",
+    "conversation_context": "Hey! We're sorry to hear that. Can you DM us your account's email address? We'll take a look backstage /SJ",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! We're sorry to hear that. Can you DM us your account's email address? We'll take a look backstage /SJ",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0033",
+    "customer_tweet_id": "1883603",
+    "customer_message": "am i able to restart my spotify premium for students after the 12 months if i am still enrolled in school when those 12 months are up?",
+    "conversation_context": "Hey! If you're still a student, you can renew your student discount for another 12 months. More info here: /NQ",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! If you're still a student, you can renew your student discount for another 12 months. More info here: /NQ",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0034",
+    "customer_tweet_id": "1810810",
+    "customer_message": "my premium updates on 11th november and i just cancelled it bc i don’t have money, will i still be charged??",
+    "conversation_context": "Hey there, we're here to help! Could you send us a DM with your account's email address and username? We'll take a look backstage /RV",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there, we're here to help! Could you send us a DM with your account's email address and username? We'll take a look backstage /RV",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0035",
+    "customer_tweet_id": "1368569",
+    "customer_message": "Hi im having a huge problem trying to get on my family plan that i have with my fiance, with whom i can contact to solve it? thanks",
+    "conversation_context": "Hi there! We've just sent you a bit more info over DM. We'll carry on helping out there /AU",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! We've just sent you a bit more info over DM. We'll carry on helping out there /AU",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0036",
+    "customer_tweet_id": "2158601",
+    "customer_message": "My premium is almost up and ends on Friday. I bought a new visa gift card to renew it and every time I do it keeps giving me the same message, saying things like Oops , seems like your card or payment provider is having a bad day. I just want to keep premium, help.",
+    "conversation_context": "Hey Caleb! We've just sent a DM your way. Let's carry on chatting there /AN",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Caleb! We've just sent a DM your way. Let's carry on chatting there /AN",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0037",
+    "customer_tweet_id": "1317760",
+    "customer_message": "Oh, I paid for my new Spotify premium hour ago and I don't recive it :(((",
+    "conversation_context": "Hi Ania, that's not fun! Can you DM us your account's username and email address? We'll check it out 🔍 /TY",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Ania, that's not fun! Can you DM us your account's username and email address? We'll check it out 🔍 /TY",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0038",
+    "customer_tweet_id": "2984779",
+    "customer_message": "Well, this sucks. What's the point of having a premium subscription if there's a limit to downloading songs (and a very small limit at that)?",
+    "conversation_context": "We're sorry you feel that way. We'd suggest supporting the idea in our Community at to help make an increase happen /AR",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We're sorry you feel that way. We'd suggest supporting the idea in our Community at to help make an increase happen /AR",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0039",
+    "customer_tweet_id": "637681",
+    "customer_message": "am gonna subscribe monthly premium feature on spotify, and there is an option to buy it by cell network's credit. Is it valid?? My location is in Indonesia.",
+    "conversation_context": "Hmm. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hmm. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0040",
+    "customer_tweet_id": "276539",
+    "customer_message": "I already have the student discount, but I can't figure out how to activate Hulu on my account.",
+    "conversation_context": "Hi Jonah, help's here! Can you DM us your account's email address? We'll take a look backstage /MG",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Jonah, help's here! Can you DM us your account's email address? We'll take a look backstage /MG",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0041",
+    "customer_tweet_id": "2779463",
+    "customer_message": "hey most of my saved songs went and it’s a premium account",
+    "conversation_context": "Hey there! We'll help out, don't worry. Just to check, have your saved music gone missing or did all your offline tracks desync? We'll see what we can suggest /GN",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! We'll help out, don't worry. Just to check, have your saved music gone missing or did all your offline tracks desync? We'll see what we can suggest /GN",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0042",
+    "customer_tweet_id": "301916",
+    "customer_message": "Does this apply to someone who already has and pays for the student discount? Or do I have to cancel and repurchase?",
+    "conversation_context": "Hi Rachel! If you're already on the student discount, you can still get this offer. More info here: /MU",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Rachel! If you're already on the student discount, you can still get this offer. More info here: /MU",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0043",
+    "customer_tweet_id": "1930939",
+    "customer_message": "Good Morning! App updated and my Premium Status seems to have went away. It is showing that a payment was accepted the 12th",
+    "conversation_context": "Hi Brandon, help's here! Can you DM us your account's email address? We'll check under the hood and see what we can do for you /NY",
+    "intent": "Billing / Subscription",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Brandon, help's here! Can you DM us your account's email address? We'll check under the hood and see what we can do for you /NY",
+    "notes": "Labelled as 'Billing / Subscription' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0044",
+    "customer_tweet_id": "2520920",
+    "customer_message": "I am desperate to change my display name on a account I've had for 4 years. Please help! I don't want to have to create a new account. I have created many playlists over the years and it's linked to my facebook account. Thanks!",
+    "conversation_context": "Hi! Can you DM us your account's email address or Facebook URL? We'll take a look /RB",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi! Can you DM us your account's email address or Facebook URL? We'll take a look /RB",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0045",
+    "customer_tweet_id": "387711",
+    "customer_message": "why can't my starred playlist on my iPhone start from the date added?",
+    "conversation_context": "Hi there, help's here! Can you send us a screenshot of what you see at the moment? We'll see what we can suggest /NY",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there, help's here! Can you send us a screenshot of what you see at the moment? We'll see what we can suggest /NY",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0046",
+    "customer_tweet_id": "859107",
+    "customer_message": "Hey, OS is MacOS Sierra 10.12.6. There's no error, I simply click Create Similar Playlist but it's like I'm not even clicking it - it's not like it clicks and doesn't do anything, it might as well be greyed out as nothing happens whatsoever. TY",
+    "conversation_context": "Thanks. Does logging out &gt; restarting your device &gt; logging back in again make any difference? /KM",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Does logging out &gt; restarting your device &gt; logging back in again make any difference? /KM",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0047",
+    "customer_tweet_id": "289167",
+    "customer_message": "App is still super slow, but at least it plays now. Progress? I will test it in the car later.",
+    "conversation_context": "Hmm. Can you try restarting your phone to see if that helps? Is this happening over WiFi, 3G/4G? /JE",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hmm. Can you try restarting your phone to see if that helps? Is this happening over WiFi, 3G/4G? /JE",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0048",
+    "customer_tweet_id": "350030",
+    "customer_message": "im not seeing any errors or anything like that. its just me listening to a song, and then it just randomly skips it",
+    "conversation_context": "Can you try clearing your cache and cookies? If you can try reinstalling Chrome to see if it helps, that'd be great /PL",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Can you try clearing your cache and cookies? If you can try reinstalling Chrome to see if it helps, that'd be great /PL",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0049",
+    "customer_tweet_id": "620426",
+    "customer_message": "when will we start streaming concerts..was nothin on tv last night other than Bulls/Lakers(smh)..perfect time to stream that ASAP/Dipset reunion show...",
+    "conversation_context": "Nice idea! It's definitely something for the team to consider and we'll make sure it reaches them. Keep rocking 🤘 /MX",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Nice idea! It's definitely something for the team to consider and we'll make sure it reaches them. Keep rocking 🤘 /MX",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0050",
+    "customer_tweet_id": "855074",
+    "customer_message": "why this happened with my playlist? Lot of songs not reproduce 😓",
+    "conversation_context": "Hi, help's here! Can you let us know your operating system and Spotify version? We'll see what we can suggest /MG",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi, help's here! Can you let us know your operating system and Spotify version? We'll see what we can suggest /MG",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0051",
+    "customer_tweet_id": "896071",
+    "customer_message": "No, I was not able to. The link you sent contains no instructions for how to queue songs on the Spotify web player.",
+    "conversation_context": "We're afraid the web player doesn't have the option to queue songs. We'll let our devs know it's something you'd like to have /JU",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We're afraid the web player doesn't have the option to queue songs. We'll let our devs know it's something you'd like to have /JU",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0052",
+    "customer_tweet_id": "1847651",
+    "customer_message": "I just tried it in the web player too and it didn't work",
+    "conversation_context": "We understand. In the meantime, can you DM us your account's email address or username? We'll take look under the hood /PB",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We understand. In the meantime, can you DM us your account's email address or username? We'll take look under the hood /PB",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0053",
+    "customer_tweet_id": "2598662",
+    "customer_message": "Why isn’t #reputation on yet?? 😩😩",
+    "conversation_context": "Hey Sergio! Taylor Swift's 'Reputation' isn't available to stream just yet – stay tuned. For now, check out the singles: /FR",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Sergio! Taylor Swift's 'Reputation' isn't available to stream just yet – stay tuned. For now, check out the singles: /FR",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0054",
+    "customer_tweet_id": "1945704",
+    "customer_message": "Since the last update, All my songs have become unavailable when I try to play them. I'm using Windows 10 on a laptop",
+    "conversation_context": "Hi! Can you let us know what device/version of Spotify you're using? Are you getting any messages when you're trying to play a song? /DR",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi! Can you let us know what device/version of Spotify you're using? Are you getting any messages when you're trying to play a song? /DR",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0055",
+    "customer_tweet_id": "1269657",
+    "customer_message": "I’ve done that but I want to be able to swipe down to display the now playing view 😭",
+    "conversation_context": "Hmm. Do you mean, it still shows even if it's already disabled? Could you send us a screenshot of what you can see on your end? /AY",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hmm. Do you mean, it still shows even if it's already disabled? Could you send us a screenshot of what you can see on your end? /AY",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0056",
+    "customer_tweet_id": "2062607",
+    "customer_message": "hey why does nothing on your app work offline anymore",
+    "conversation_context": "Hi there! Can you let us know what's happening exactly? Also, what device, OS, and Spotify version are you running? /LM",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! Can you let us know what's happening exactly? Also, what device, OS, and Spotify version are you running? /LM",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0057",
+    "customer_tweet_id": "2895458",
+    "customer_message": "No. Neither did updating to the latest verson or restarting my computer. It has been like this for 8 days. Very strange.. this is the playlist:",
+    "conversation_context": "Thanks for the screenshot. Can you DM us the link to your playlist? We'll take a look under the hood /PB",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for the screenshot. Can you DM us the link to your playlist? We'll take a look under the hood /PB",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0058",
+    "customer_tweet_id": "79448",
+    "customer_message": "This has gotten weirder - someone is adding playlists to my account in a foreign language. I've exchanged some messages with spotify, but the accounts team haven't replied to me in 24 hours. There doesn't seem to be a phone number to call for immediate help.",
+    "conversation_context": "No worries! Our accounts team will be with you soon. Be sure to keep an eye out for their email. Keep us posted /DF",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "No worries! Our accounts team will be with you soon. Be sure to keep an eye out for their email. Keep us posted /DF",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0059",
+    "customer_tweet_id": "1941129",
+    "customer_message": "How do i customize the icon of a playlist?",
+    "conversation_context": "Hey there! We've got helpful info on this at so check it out. If you have any questions, just give us a shout /RH",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! We've got helpful info on this at so check it out. If you have any questions, just give us a shout /RH",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0060",
+    "customer_tweet_id": "717138",
+    "customer_message": "you need to change the coding on suggested songs to play ONLY after playlists. I had 6 before my playlist songs even started",
+    "conversation_context": "Hey Mike! Can you DM us your account's email address or username? We'll take a look backstage /JE",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Mike! Can you DM us your account's email address or username? We'll take a look backstage /JE",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0061",
+    "customer_tweet_id": "1143737",
+    "customer_message": "why can't I listen to anything anymore? I get \"suggested songs\" everytime I shuffle an whole album. An whole artist.",
+    "conversation_context": "2: here: To reduce the number of Suggested Tracks you get, try adding more songs into your playlists /JN",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2: here: To reduce the number of Suggested Tracks you get, try adding more songs into your playlists /JN",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0062",
+    "customer_tweet_id": "1143737",
+    "customer_message": "why can't I listen to anything anymore? I get \"suggested songs\" everytime I shuffle an whole album. An whole artist.",
+    "conversation_context": "1: Hey Olivia! Suggested Tracks play when listening to an album or playlist as it's part of our Free service. More info about it...",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hey Olivia! Suggested Tracks play when listening to an album or playlist as it's part of our Free service. More info about it...",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0063",
+    "customer_tweet_id": "187801",
+    "customer_message": "What an irony You reply with a voice message that doesn't play in my country 😂😂😂",
+    "conversation_context": "Oops, that's embarrassing. If you ever need anything else, just shout and we'll come running 🏃 /PX",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Oops, that's embarrassing. If you ever need anything else, just shout and we'll come running 🏃 /PX",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0064",
+    "customer_tweet_id": "901269",
+    "customer_message": "why doesn’t Spotify show on my control pad or notif thing anymoreeeeee or am I being dumb",
+    "conversation_context": "Hey! Sorry for the delay. Does reinstalling help with this: Keep us posted, we're happy to help 🙂 /M",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! Sorry for the delay. Does reinstalling help with this: Keep us posted, we're happy to help 🙂 /M",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0065",
+    "customer_tweet_id": "2075443",
+    "customer_message": "can I retrieve my playlists? I'd love to have them back!",
+    "conversation_context": "We'd like to discuss your account in private. Could you DM us your account's email address? We'll check backstage /GK",
+    "intent": "Playback / Streaming",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We'd like to discuss your account in private. Could you DM us your account's email address? We'll check backstage /GK",
+    "notes": "Labelled as 'Playback / Streaming' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0066",
+    "customer_tweet_id": "1912398",
+    "customer_message": "this is on my laptop, not mobile but thanks",
+    "conversation_context": "That's odd. You should be able to listen on-demand (with ads) on your desktop. Can you let us know the OS and app version you're using? /PB",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "That's odd. You should be able to listen on-demand (with ads) on your desktop. Can you let us know the OS and app version you're using? /PB",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0067",
+    "customer_tweet_id": "2121349",
+    "customer_message": "paid for premium, showing free still. Reinstalled app and nothing",
+    "conversation_context": "Hey, that doesn't sound right. Can you DM us your account's email address? We'll take a look backstage /RR",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, that doesn't sound right. Can you DM us your account's email address? We'll take a look backstage /RR",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0068",
+    "customer_tweet_id": "89494",
+    "customer_message": "Dying without music here guys... #SpotifyDown",
+    "conversation_context": "Hey Daniel! Everything should be running smoothly now. Let us know if this is still happening /N",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Daniel! Everything should be running smoothly now. Let us know if this is still happening /N",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0069",
+    "customer_tweet_id": "2081093",
+    "customer_message": "with the Microsoft groove update today I transferred my music but no reference to the 60 day trial was shown. Where do I go?",
+    "conversation_context": "Hey Todd! The cavalry's here. Could you DM us your account's email address or username? We'll take a look under the hood /KB",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Todd! The cavalry's here. Could you DM us your account's email address or username? We'll take a look under the hood /KB",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0070",
+    "customer_tweet_id": "391834",
+    "customer_message": "Steps followed, glitch persists.",
+    "conversation_context": "Got it. Can you DM us your account's username and email address? We'll take a look backstage /TF",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Can you DM us your account's username and email address? We'll take a look backstage /TF",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0071",
+    "customer_tweet_id": "2296884",
+    "customer_message": "(with an android phone)",
+    "conversation_context": "Hey there! Can you let us know the model, operating system, and Spotify version of the device you're trying to cast on? /PL",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Can you let us know the model, operating system, and Spotify version of the device you're trying to cast on? /PL",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0072",
+    "customer_tweet_id": "2201069",
+    "customer_message": "Why can't you unlike a song on ? I meant to click \"dislike\" and now I'm going to be forced to listen to shitty music",
+    "conversation_context": "Hi there! We don't have any info on this right now, but you can show your support for a similar idea here to help make it happen: Let us know if you have any other questions /NY",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! We don't have any info on this right now, but you can show your support for a similar idea here to help make it happen: Let us know if you have any other questions /NY",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0073",
+    "customer_tweet_id": "418509",
+    "customer_message": "Using an IPhone 7 and the most updated Spotify.",
+    "conversation_context": "Thanks for the info. Could you also get back to us with the iOS you have installed? /MT",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for the info. Could you also get back to us with the iOS you have installed? /MT",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0074",
+    "customer_tweet_id": "937704",
+    "customer_message": "It's a Google pixel XL running Android 8.0.0. Spotify version 8.4.22.857.",
+    "conversation_context": "Got it! Don't worry, we're on it. Our developers are looking into this as we speak. Be sure to keep your Spotify app updated /RV",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it! Don't worry, we're on it. Our developers are looking into this as we speak. Be sure to keep your Spotify app updated /RV",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0075",
+    "customer_tweet_id": "1021335",
+    "customer_message": "I have uninstalling &amp; re-installing the app more than once &amp; still having the same problems. I tried turning my phone off &amp; on 2 no avail.",
+    "conversation_context": "Thanks. Can you try logging in to your account using a different device? Is the same thing happening? Keep us posted /DR",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Can you try logging in to your account using a different device? Is the same thing happening? Keep us posted /DR",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0076",
+    "customer_tweet_id": "879613",
+    "customer_message": "I need help. I account is linked to my facebook about and i changed my email on facebook but it hasnt updated on spotify yet.",
+    "conversation_context": "Hey Nick, help's here! Can you DM us your account's email address? We'll take a look backstage /CG",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Nick, help's here! Can you DM us your account's email address? We'll take a look backstage /CG",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0077",
+    "customer_tweet_id": "1780341",
+    "customer_message": "How do you see how many times a songs been listened to on Spotify?",
+    "conversation_context": "Hi there! What device, operating system, and Spotify version are you using? We'll keep an eye out for your reply /LP",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! What device, operating system, and Spotify version are you using? We'll keep an eye out for your reply /LP",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0078",
+    "customer_tweet_id": "2275494",
+    "customer_message": "Actually I just got a update to IOS 11.2 public beta 2 and the problem is gone !! But anyways thank you very much for you help 🙏🙏🙏 excellent support 👌💪",
+    "conversation_context": "Great! Glad to hear everything worked out. Not to worry, we'll pass on your feedback. Otherwise... 😉 /MT",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Great! Glad to hear everything worked out. Not to worry, we'll pass on your feedback. Otherwise... 😉 /MT",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0079",
+    "customer_tweet_id": "2572189",
+    "customer_message": "just wtf.....",
+    "conversation_context": "Hi there! Can you tell us more about what's happening? We'll take a look backstage /XF",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! Can you tell us more about what's happening? We'll take a look backstage /XF",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0080",
+    "customer_tweet_id": "2246284",
+    "customer_message": "how long will your system be down?",
+    "conversation_context": "Hey, help's here! Can you let us know what's happening exactly? We'll see what we can suggest /DV",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, help's here! Can you let us know what's happening exactly? We'll see what we can suggest /DV",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0081",
+    "customer_tweet_id": "1538251",
+    "customer_message": "Pixel 1- Android 8.0.0 - thanks 🙂",
+    "conversation_context": "Thanks. Does the same thing happen with any other albums or artists? Try logging out &gt; restarting your device &gt; then logging back in /CO",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Does the same thing happen with any other albums or artists? Try logging out &gt; restarting your device &gt; then logging back in /CO",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0082",
+    "customer_tweet_id": "2412378",
+    "customer_message": "But you are checking into this, right? I really need the font back to where it was for me to use my phone",
+    "conversation_context": "Yes! Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated 😉 /CH",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Yes! Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated 😉 /CH",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0083",
+    "customer_tweet_id": "2175427",
+    "customer_message": "Would it not make sense to make a function that allows users to save personal presets for the equalizer? i’m constantly messing with mine and it’s silly that i have to do that. #spotify",
+    "conversation_context": "Hey, thanks for reaching out. This is an idea that's appeared in our Community! Feel free to upvote it here: /J",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, thanks for reaching out. This is an idea that's appeared in our Community! Feel free to upvote it here: /J",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0084",
+    "customer_tweet_id": "609663",
+    "customer_message": "Did you read my tweet? I'm trying to sign up... I don't have an account.",
+    "conversation_context": "Sorry for the confusion. Can you let us know what device, operating system, and Spotify version you're using? In the meantime, try using a different browser or an incognito window /RB",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Sorry for the confusion. Can you let us know what device, operating system, and Spotify version you're using? In the meantime, try using a different browser or an incognito window /RB",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0085",
+    "customer_tweet_id": "2981104",
+    "customer_message": "spotify 8.4.28 ios 11.1",
+    "conversation_context": "Thanks. Is this happening over WiFi, 3G/4G, or both? If on WiFi, is it a private or public connection? /LO",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Is this happening over WiFi, 3G/4G, or both? If on WiFi, is it a private or public connection? /LO",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0086",
+    "customer_tweet_id": "494216",
+    "customer_message": "hello I need help I can't open, install or uninstall Spotify",
+    "conversation_context": "Hey Alan, we'd love to help! Can you let us know your exact Windows and Spotify versions? We'll see what we can suggest /JP",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Alan, we'd love to help! Can you let us know your exact Windows and Spotify versions? We'll see what we can suggest /JP",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0087",
+    "customer_tweet_id": "881461",
+    "customer_message": "Or maybe just fix the fact that no family invites work for anyone",
+    "conversation_context": "1. We're passing on all feedback about this. We appreciate you telling us. If you'd like us to proceed in helping you out on your...",
+    "intent": "App / Technical Issue",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1. We're passing on all feedback about this. We appreciate you telling us. If you'd like us to proceed in helping you out on your...",
+    "notes": "Labelled as 'App / Technical Issue' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0088",
+    "customer_tweet_id": "2520922",
+    "customer_message": "WHY must you be so cruel and delete ALL my saved songs 😭☺ LIKE WTF this sucks",
+    "conversation_context": "Hey, help's arrived! Can you tell us if this happens with the songs saved under Your Library, or on all of your tracks saved playlists? We'll see what we can suggest /CH",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, help's arrived! Can you tell us if this happens with the songs saved under Your Library, or on all of your tracks saved playlists? We'll see what we can suggest /CH",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0089",
+    "customer_tweet_id": "1871721",
+    "customer_message": "they removed ma belle evangeline from the disney playlist put it back",
+    "conversation_context": "Hey there! Sometimes content gets removed because of licensing or other legal issues. Hopefully we'll have it available again soon /AR",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Sometimes content gets removed because of licensing or other legal issues. Hopefully we'll have it available again soon /AR",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0090",
+    "customer_tweet_id": "2406994",
+    "customer_message": "why isn't the album \"Ain't too long\" on spotify yet ?",
+    "conversation_context": "Hi there! Can you specify the artist of the album you've mentioned? We'll take a look under the hood /JM",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! Can you specify the artist of the album you've mentioned? We'll take a look under the hood /JM",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0091",
+    "customer_tweet_id": "890181",
+    "customer_message": "why has The Game - Blood Moon: Year Of The Wolf album been removed? And any chance we can get Kano - 140 Grime St added? Thanks 😁",
+    "conversation_context": "Hey Peter! That doesn't sound good. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Peter! That doesn't sound good. Could you send us a DM with your account's email address? We'll take a look backstage /QI",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0092",
+    "customer_tweet_id": "1679845",
+    "customer_message": "Help... I get ‘All filled up’ message. I only have one album on there and My phone has 9.69GB memory left! ???",
+    "conversation_context": "Hey! How many tracks would you say you have in Songs (roughly)? e.g. 100, 1000, 5000, or more? /LO",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! How many tracks would you say you have in Songs (roughly)? e.g. 100, 1000, 5000, or more? /LO",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0093",
+    "customer_tweet_id": "1144865",
+    "customer_message": "Why is the shuffle functionality so janky? Love Sgt. Pepper's but shouldn't hear it on repeat with 1000s of songs in library.",
+    "conversation_context": "Hey there! We’d love to hear your feedback about our shuffle algorithm here: 🙂 /CG",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! We’d love to hear your feedback about our shuffle algorithm here: 🙂 /CG",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0094",
+    "customer_tweet_id": "1818453",
+    "customer_message": "Why isnt the music \"maladavexa\" of nepal on spotify yet?",
+    "conversation_context": "Hey! We’d love to have all of Maladavexa's tracks available, but we have some info about content here: /GK",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! We’d love to have all of Maladavexa's tracks available, but we have some info about content here: /GK",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0095",
+    "customer_tweet_id": "2062944",
+    "customer_message": "My library has completely gone and been replaced by what looks like someone else's. Can you fix this, please?",
+    "conversation_context": "Hey Jamie, that doesn't sound right! Can you DM us your account's email address? We'll take a look backstage /RR",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Jamie, that doesn't sound right! Can you DM us your account's email address? We'll take a look backstage /RR",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0096",
+    "customer_tweet_id": "1346914",
+    "customer_message": "Hey why isn't Majid Jordan's new album on Spotify Denmark?",
+    "conversation_context": "1: Hi Malthe! We can confirm that the album is available, but not all tracks are available for release in Denmark. We’d love to have... /BM",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hi Malthe! We can confirm that the album is available, but not all tracks are available for release in Denmark. We’d love to have... /BM",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0097",
+    "customer_tweet_id": "2046567",
+    "customer_message": "Alright, . I've never wronged you before and you go and remove all my saved music. We shaky af right now.",
+    "conversation_context": "Hey Kenny! Just to clarify, are you referring to tracks saved in Your Library or those you've downloaded for offline use? /AR",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Kenny! Just to clarify, are you referring to tracks saved in Your Library or those you've downloaded for offline use? /AR",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0098",
+    "customer_tweet_id": "620326",
+    "customer_message": "can you PLEASEEEEEE let us pick songs from our library to add to a playlist without having to individually select and move them.",
+    "conversation_context": "Hey there! You can add multiple songs to a playlist at a time on the desktop app. Select multiple songs by holding Ctrl (Command on Mac) and clicking on all the songs you want. Then you can right click to add them all to a playlist at once. We hope this helps /TX",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! You can add multiple songs to a playlist at a time on the desktop app. Select multiple songs by holding Ctrl (Command on Mac) and clicking on all the songs you want. Then you can right click to add them all to a playlist at once. We hope this helps /TX",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0099",
+    "customer_tweet_id": "1848361",
+    "customer_message": "WHAT THE FUCK i've accidentally removed songs from my favourite playlist TWICE now... where is the regret button?? Please implement",
+    "conversation_context": "1: Hi! We don't have the regret button for reverting accidentally removed tracks yet, but feel free to suggest it in our Community...",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hi! We don't have the regret button for reverting accidentally removed tracks yet, but feel free to suggest it in our Community...",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0100",
+    "customer_tweet_id": "1848361",
+    "customer_message": "WHAT THE FUCK i've accidentally removed songs from my favourite playlist TWICE now... where is the regret button?? Please implement",
+    "conversation_context": "2: at and get support from other users 😁 /RR",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2: at and get support from other users 😁 /RR",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0101",
+    "customer_tweet_id": "1725456",
+    "customer_message": "yeah for some reason desktop won't fix. country set to US",
+    "conversation_context": "That's odd. Can you send us the Spotify URI instead? Just right-click the album &gt; Share &gt; URI. We'll check it out /YM",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "That's odd. Can you send us the Spotify URI instead? Just right-click the album &gt; Share &gt; URI. We'll check it out /YM",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0102",
+    "customer_tweet_id": "51767",
+    "customer_message": "Shuffling my entire library isn't giving me truly random shuffle. Fix it. smdh. 🤦‍♂️ about to go to pandora. Using Windows 8.1",
+    "conversation_context": "Hi Connor! We’ve recently made some improvements to our shuffle algorithm. We’d love to hear your feedback here: /HR",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Connor! We’ve recently made some improvements to our shuffle algorithm. We’d love to hear your feedback here: /HR",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0103",
+    "customer_tweet_id": "2912497",
+    "customer_message": "none of the tabs in app work. Only My Library tab barely works",
+    "conversation_context": "Hi there, thanks for bearing with us. Spotify should be working perfectly again! 🙂 /GN",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there, thanks for bearing with us. Spotify should be working perfectly again! 🙂 /GN",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0104",
+    "customer_tweet_id": "1241233",
+    "customer_message": "did you make a big change in the Discover Weekly algorithm? I used to love it, but this week it totally failed for the first time 😕",
+    "conversation_context": "Hey! Sorry to hear Discover Weekly wasn’t to your liking this week. It’ll be re-tuned on Monday. Check out Daily Mix in the meantime /CP",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! Sorry to hear Discover Weekly wasn’t to your liking this week. It’ll be re-tuned on Monday. Check out Daily Mix in the meantime /CP",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0105",
+    "customer_tweet_id": "171131",
+    "customer_message": "I can't find my eq settings on my phone! (LG G4)",
+    "conversation_context": "Hey Caden, thanks for the feedback. We can see how an equalizer setting would be handy, not only for your mobile but also on Spotify! It's definitely something for the team to consider, and we'll make sure it reaches them. Stay awesome 😁 /TI",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Caden, thanks for the feedback. We can see how an equalizer setting would be handy, not only for your mobile but also on Spotify! It's definitely something for the team to consider, and we'll make sure it reaches them. Stay awesome 😁 /TI",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0106",
+    "customer_tweet_id": "479846",
+    "customer_message": "Looks like just 'High' and 'All of Your Love' but the rest of the music under that particular artist is a little skeptical too. Half of it seems to be rap and the other half is instrumental, not sure if that's right either. Thanks for replying!",
+    "conversation_context": "Thanks for the info. To make sure we're looking at the correct tracks, can you send us the links to them? Just tap the three dots &gt; Share &gt; Copy Link. We'll be right here waiting /AY",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for the info. To make sure we're looking at the correct tracks, can you send us the links to them? Just tap the three dots &gt; Share &gt; Copy Link. We'll be right here waiting /AY",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0107",
+    "customer_tweet_id": "1873695",
+    "customer_message": "Where does 'Discover Weekly' playlist come from? If it's an algorithm it is so wide of the mark...",
+    "conversation_context": "Hi! Discover Weekly is based on what you, and others like you, are listening to. Hopefully it’s more in tune with your tastes next week /NY",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi! Discover Weekly is based on what you, and others like you, are listening to. Hopefully it’s more in tune with your tastes next week /NY",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0108",
+    "customer_tweet_id": "1394699",
+    "customer_message": "Yes but I don't see all the songs of the album, I live in the Netherlands",
+    "conversation_context": "It looks like some tracks aren't available in your country at the moment. There's more info at 🙂 /GN",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "It looks like some tracks aren't available in your country at the moment. There's more info at 🙂 /GN",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0109",
+    "customer_tweet_id": "2427718",
+    "customer_message": "this came up on my Discover Weekly playlist. Didn't realize this playlist was supposed to help me find songs I'd absolutely loathe",
+    "conversation_context": "Hey, sorry to hear Discover Weekly wasn’t to your liking this week! It’ll be re-tuned on Monday. Check out Fresh Finds in the meantime /CG",
+    "intent": "Content / Library",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, sorry to hear Discover Weekly wasn’t to your liking this week! It’ll be re-tuned on Monday. Check out Fresh Finds in the meantime /CG",
+    "notes": "Labelled as 'Content / Library' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0110",
+    "customer_tweet_id": "2749457",
+    "customer_message": "Yes I have tried that this has been going on for months",
+    "conversation_context": "Got it. Does using a different device or browser make a difference? Keep us posted /ZO",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Does using a different device or browser make a difference? Keep us posted /ZO",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0111",
+    "customer_tweet_id": "436589",
+    "customer_message": "I don't even know what Connect is, JP. It's the desktop app. I'm not on mobile long enough to see if it does it there, too.",
+    "conversation_context": "Got it. Connect is a feature where you can control playback on one device using another. Can you send us your OS and Spotify version? /JP",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it. Connect is a feature where you can control playback on one device using another. Can you send us your OS and Spotify version? /JP",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0112",
+    "customer_tweet_id": "1698950",
+    "customer_message": "specifically does this affect the NAD D7050 amplifier?",
+    "conversation_context": "Great question! Since the NAD D7050 uses Spotify Connect, it should be unaffected by the depreciation. Hope this helps /TB",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Great question! Since the NAD D7050 uses Spotify Connect, it should be unaffected by the depreciation. Hope this helps /TB",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0113",
+    "customer_tweet_id": "89463",
+    "customer_message": "Like I say, my speaker is visible, but when I click on it, the app just goes back to the song screen and doesn't switch to the speaker...",
+    "conversation_context": "Thanks. Can you make sure you've enabled \"Control Sonos from Spotify\" in the Sonos app settings? There's more info here: /NG",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Can you make sure you've enabled \"Control Sonos from Spotify\" in the Sonos app settings? There's more info here: /NG",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0114",
+    "customer_tweet_id": "89463",
+    "customer_message": "Like I say, my speaker is visible, but when I click on it, the app just goes back to the song screen and doesn't switch to the speaker...",
+    "conversation_context": "Just to confirm, were you able to do a clean reinstall as suggested? /NG",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Just to confirm, were you able to do a clean reinstall as suggested? /NG",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0115",
+    "customer_tweet_id": "2953031",
+    "customer_message": "Yo why is my podcast stopping early and won't continue the episode??",
+    "conversation_context": "Hey there, calvary's here! Does logging out &gt; restarting the device &gt; logging back in help? Let us know how it goes /TX",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there, calvary's here! Does logging out &gt; restarting the device &gt; logging back in help? Let us know how it goes /TX",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0116",
+    "customer_tweet_id": "1644821",
+    "customer_message": "I have a Premium account but cannot play music on my devices (speakers).",
+    "conversation_context": "Hey Anthony! Are you getting any specific error messages when using your speakers? If so, can you send us a screenshot of it? /FR",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Anthony! Are you getting any specific error messages when using your speakers? If so, can you send us a screenshot of it? /FR",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0117",
+    "customer_tweet_id": "2857525",
+    "customer_message": "Hey Spotify, why is it that when I buy a $10 prepaid card to purchase the 3 month re-enrolling offer, I have to enter my card information as well? The offer is for $9.99 so it should work, but it feels like you're double dipping just to have my card information.",
+    "conversation_context": "Hey there! Can you DM us your account's username and email address? We'll take a look backstage /SY",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Can you DM us your account's username and email address? We'll take a look backstage /SY",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0118",
+    "customer_tweet_id": "492444",
+    "customer_message": "Spotify Connect promises so much..... but regardless how I try to connect to one pair of devices, I often have to reboot them. Tips?",
+    "conversation_context": "Hey there, help's here! Could you send us a DM with your account's email address and username? We'll take a look backstage /JZ",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there, help's here! Could you send us a DM with your account's email address and username? We'll take a look backstage /JZ",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0119",
+    "customer_tweet_id": "226773",
+    "customer_message": "getting some weird track names recently, any reason? These also show up in the car via Bluetooth.",
+    "conversation_context": "Hey! The cavalry's here. Can you fire over the device's make/model and the Android/Spotify versions you're using? /JS",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! The cavalry's here. Can you fire over the device's make/model and the Android/Spotify versions you're using? /JS",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0120",
+    "customer_tweet_id": "1459956",
+    "customer_message": "we going to see that Apple Watch app any time within the next 5 years?!",
+    "conversation_context": "2: add your vote to let our devs know it's something you'd like to see: /SY",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2: add your vote to let our devs know it's something you'd like to see: /SY",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0121",
+    "customer_tweet_id": "1459956",
+    "customer_message": "we going to see that Apple Watch app any time within the next 5 years?!",
+    "conversation_context": "1: Hey Landon! We're afraid we don't have any info to share about this, but check out the official idea and...",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hey Landon! We're afraid we don't have any info to share about this, but check out the official idea and...",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0122",
+    "customer_tweet_id": "284970",
+    "customer_message": "hello!! My Bluetooth headphone controls do not work with spotify on my galaxy s8. Powerbeats3. Is their a fix for this?",
+    "conversation_context": "Hi Gerard! We don't officially support Bluetooth, but we'll do our best. Can you let us know your device's Android and Spotify versions? /NY",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Gerard! We don't officially support Bluetooth, but we'll do our best. Can you let us know your device's Android and Spotify versions? /NY",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0123",
+    "customer_tweet_id": "906658",
+    "customer_message": "iPhone 7plus iOS 11.0.2 and Spotify version 8.4.22",
+    "conversation_context": "Thanks for that info. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /DF",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for that info. Does logging out &gt; restarting the device &gt; logging back in help? Keep us posted /DF",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0124",
+    "customer_tweet_id": "761826",
+    "customer_message": "they are totally different issues. One is about wanting to be able to relabel devices. My issue is all the devices being given the same name",
+    "conversation_context": "Hey Edward. We'd suggest letting one of our moderators know. You can also comment on your post about it /QI",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Edward. We'd suggest letting one of our moderators know. You can also comment on your post about it /QI",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0125",
+    "customer_tweet_id": "254964",
+    "customer_message": "So when is a decision going to be made? It's been known that customers have wanted an Explicit filter for years #ProveSpotifyCares",
+    "conversation_context": "2. we'll have an update soon. In the meantime, let us know if you need help with anything else and thanks for bearing with us /GU",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2. we'll have an update soon. In the meantime, let us know if you need help with anything else and thanks for bearing with us /GU",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0126",
+    "customer_tweet_id": "1880450",
+    "customer_message": "Hi its a MacBook pro Sierra V. 10.12.6 and joined Spotify on 18/10/2017",
+    "conversation_context": "Thanks. Does logging out and restarting your device help? Let us know how it goes /RC",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks. Does logging out and restarting your device help? Let us know how it goes /RC",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0127",
+    "customer_tweet_id": "620363",
+    "customer_message": "Does it only work on one device? Because it works fine on my iPad however not on my iPhone",
+    "conversation_context": "Hey Liza! We're here to help. Can you DM us your account's email address? We'll take a look under the hood /AN",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Liza! We're here to help. Can you DM us your account's email address? We'll take a look under the hood /AN",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0128",
+    "customer_tweet_id": "203112",
+    "customer_message": "Every time I do so, it says session timed out. I have tried on 2 different devices? Is there a way you could help? :)",
+    "conversation_context": "Hi Saskia, help's here! Can you DM us your account's username and email address? We'll check it out 🔍 /TY",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi Saskia, help's here! Can you DM us your account's username and email address? We'll check it out 🔍 /TY",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0129",
+    "customer_tweet_id": "1960264",
+    "customer_message": "What about the lyrics function!? We still miss it",
+    "conversation_context": "Hey Maria! As you’re Premium, you can connect Spotify to Musixmatch to enjoy lyrics: Anything else, just shout /ND",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Maria! As you’re Premium, you can connect Spotify to Musixmatch to enjoy lyrics: Anything else, just shout /ND",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0130",
+    "customer_tweet_id": "921047",
+    "customer_message": "Hi! I've been using spotify family but your system do not accept my registered debit card. I've tried many times but negative. :/",
+    "conversation_context": "That's not cool. Can you DM us your account's email address or username? We'll take a look backstage /KM",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "That's not cool. Can you DM us your account's email address or username? We'll take a look backstage /KM",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0131",
+    "customer_tweet_id": "2699821",
+    "customer_message": "iPhone model SE and on the latest iOS , Spotify premium family and this happens whenever I play music whether it’s through aux, Bluetooth or through the phone speakers",
+    "conversation_context": "Thanks for the info. Just to check, does this happening with any other streaming apps on your phone? /LM",
+    "intent": "Device / Connectivity",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Thanks for the info. Just to check, does this happening with any other streaming apps on your phone? /LM",
+    "notes": "Labelled as 'Device / Connectivity' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0132",
+    "customer_tweet_id": "2723469",
+    "customer_message": "Excellent news. When will applications be opening?",
+    "conversation_context": "Hey Alex! You can keep up with all the latest vacancies here: Give us a shout if you need anything else /K",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Alex! You can keep up with all the latest vacancies here: Give us a shout if you need anything else /K",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0133",
+    "customer_tweet_id": "671411",
+    "customer_message": "intoduce a like feature for friend activity please",
+    "conversation_context": "Hey Peter, we can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /CG",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Peter, we can see how that’d be handy. Thanks for taking the time to reach out – your feedback's been noted 📝 /CG",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0134",
+    "customer_tweet_id": "499263",
+    "customer_message": "Hi! How do you suggest an edit for the concerts feature on Spotify? There's a concert in San Diego on December 5th that's missing the headliner, The Lumineers",
+    "conversation_context": "Hey! We've just sent you a bit more info over DM. We'll carry on helping out there /MX",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! We've just sent you a bit more info over DM. We'll carry on helping out there /MX",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0135",
+    "customer_tweet_id": "2338489",
+    "customer_message": "where is super slimey",
+    "conversation_context": "Hey DeMarrco, help's here! Can you DM us your account's email address? We'll check backstage /GK",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey DeMarrco, help's here! Can you DM us your account's email address? We'll check backstage /GK",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0136",
+    "customer_tweet_id": "55258",
+    "customer_message": "When will be available in Romania ?",
+    "conversation_context": "Hey! We're launching regularly in countries around the world. Sign up here to be first to hear: 🙂 /KL",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! We're launching regularly in countries around the world. Sign up here to be first to hear: 🙂 /KL",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0137",
+    "customer_tweet_id": "2603296",
+    "customer_message": "hi , how can i get spotify preimum? Ive searched all around the app couldnt find something that leads to upgrading the app",
+    "conversation_context": "Hi there! We're afraid our services aren't available in your region yet. Don't worry, we're launching in new countries as often as possible. Be sure to add your email at Once Spotify is available, you can upgrade to Premium at /NY",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! We're afraid our services aren't available in your region yet. Don't worry, we're launching in new countries as often as possible. Be sure to add your email at Once Spotify is available, you can upgrade to Premium at /NY",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0138",
+    "customer_tweet_id": "1488418",
+    "customer_message": "can i have some help with an account issue",
+    "conversation_context": "Hi! We've just sent a DM your way. Let's carry on chatting there /RA",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi! We've just sent a DM your way. Let's carry on chatting there /RA",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0139",
+    "customer_tweet_id": "129751",
+    "customer_message": "Is this legit? How to avail this?",
+    "conversation_context": "Hi there! If you haven't had a subscription before, you can get the Intro Offer at Make sure to use a recurring payment method such as a debit/credit card or PayPal. Any questions, give us a shout /NJ",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! If you haven't had a subscription before, you can get the Intro Offer at Make sure to use a recurring payment method such as a debit/credit card or PayPal. Any questions, give us a shout /NJ",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0140",
+    "customer_tweet_id": "2513048",
+    "customer_message": "Can you guys also add the friends feature on the mobile app so I can creep on my friends?! 👀",
+    "conversation_context": "We can see how that’d be useful! You can vote for the official idea here: /FR",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We can see how that’d be useful! You can vote for the official idea here: /FR",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0141",
+    "customer_tweet_id": "1041461",
+    "customer_message": "Does anyone know what is going on with my WTF?",
+    "conversation_context": "2: might differ from the original. Can you try editing the metadata of the file on your PC before resyncing your local files? /MG",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2: might differ from the original. Can you try editing the metadata of the file on your PC before resyncing your local files? /MG",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0142",
+    "customer_tweet_id": "1041461",
+    "customer_message": "Does anyone know what is going on with my WTF?",
+    "conversation_context": "1: Hi! If the app's unable to import a file, we’ll do our best to match it with songs from the catalog. The version we match with...",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hi! If the app's unable to import a file, we’ll do our best to match it with songs from the catalog. The version we match with...",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0143",
+    "customer_tweet_id": "642132",
+    "customer_message": "When will it be available?! I need some new Swifty in my lifeeeee",
+    "conversation_context": "We’ll have it available to you as soon as it’s available to us! For now, check out the singles: /JQ",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We’ll have it available to you as soon as it’s available to us! For now, check out the singles: /JQ",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0144",
+    "customer_tweet_id": "694027",
+    "customer_message": "Can I get a reply to this please?",
+    "conversation_context": "Hey Ed, sorry for the delay! We'd love to help you out. Can you DM us both your account's username/email address? We'll see what we can do /JP",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Ed, sorry for the delay! We'd love to help you out. Can you DM us both your account's username/email address? We'll see what we can do /JP",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0145",
+    "customer_tweet_id": "1160877",
+    "customer_message": "Why does Spotify ask for my navigational data in Waze? Is this really necessary and what do you do with this?",
+    "conversation_context": "Hi there! Can you fire over a screenshot of what you can see on your end? We'll see what we can do to help /JM",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi there! Can you fire over a screenshot of what you can see on your end? We'll see what we can do to help /JM",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0146",
+    "customer_tweet_id": "2802522",
+    "customer_message": ". WHERE is reputation",
+    "conversation_context": "Hey, Taylor Swift's 'Reputation' isn't available to stream just yet! For now, check out the singles: /RB",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey, Taylor Swift's 'Reputation' isn't available to stream just yet! For now, check out the singles: /RB",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0147",
+    "customer_tweet_id": "656463",
+    "customer_message": "how can I change my login to my email rather than Facebook? My experience isint the same across platforms and some features",
+    "conversation_context": "Hey Marlon, the cavalry's here! Could you shoot us over your email address and a link to your FB profile in a DM? We'll take a look backstage 🔍 /JY",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Marlon, the cavalry's here! Could you shoot us over your email address and a link to your FB profile in a DM? We'll take a look backstage 🔍 /JY",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0148",
+    "customer_tweet_id": "767007",
+    "customer_message": "What if I’m a Starbucks partner? Can I jus get the Hulu for 4.99?",
+    "conversation_context": "Hey! We're afraid it's not possible as Hulu is only bundled with the student discount. More info about this at /SJ",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey! We're afraid it's not possible as Hulu is only bundled with the student discount. More info about this at /SJ",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0149",
+    "customer_tweet_id": "997179",
+    "customer_message": "How can I make sure I am one of them!?",
+    "conversation_context": "Listeners who our data show are the artist’s top fans will receive the link. Just make sure you’ve opted in to our emails and that we have your correct email address. Good luck! Let us know if you have any questions /LX",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Listeners who our data show are the artist’s top fans will receive the link. Just make sure you’ve opted in to our emails and that we have your correct email address. Good luck! Let us know if you have any questions /LX",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0150",
+    "customer_tweet_id": "1769705",
+    "customer_message": "The message i get is \"This song is not available. If you have the file on your computer, you can import it.\"",
+    "conversation_context": "Got it! Is this issue occurring on your computer only, or on other devices as well? We'll be right here waiting /RV",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Got it! Is this issue occurring on your computer only, or on other devices as well? We'll be right here waiting /RV",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0151",
+    "customer_tweet_id": "1925244",
+    "customer_message": "sometimes the thumbs up/down are visible sometimes not. So confusing! How can I find them and why aren't they always there??",
+    "conversation_context": "Hey there! Can you let us know what device, OS, and Spotify version you're running? Also, are you listening to a Radio playlist? /LM",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Can you let us know what device, OS, and Spotify version you're running? Also, are you listening to a Radio playlist? /LM",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0152",
+    "customer_tweet_id": "1162397",
+    "customer_message": ". How do I disable censored tracks from appearing?",
+    "conversation_context": "Hey Kennon, this sounds like a great idea! Suggest it in our Community at and get support from other users /TR",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Kennon, this sounds like a great idea! Suggest it in our Community at and get support from other users /TR",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0153",
+    "customer_tweet_id": "2110112",
+    "customer_message": "Yeah I know... why do you guys have that limit ?? I love music and listen to tons and reached the limit the other day and now I’m not sure what to do... is there any way to save more than 10,000 songs ??",
+    "conversation_context": "2. meantime, you can save your tunes in playlists instead. Let us know if you have any other questions /GU",
+    "intent": "General Inquiry",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2. meantime, you can save your tunes in playlists instead. Let us know if you have any other questions /GU",
+    "notes": "Labelled as 'General Inquiry' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0154",
+    "customer_tweet_id": "2042262",
+    "customer_message": "Finally a solution to filtering out explicit lyrics on spotify. Switch to apple:",
+    "conversation_context": "Hi! We appreciate your feedback on this, we've passed it on. Search for specific clean song versions like this: /J",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi! We appreciate your feedback on this, we've passed it on. Search for specific clean song versions like this: /J",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0155",
+    "customer_tweet_id": "2920615",
+    "customer_message": "I’m unsubscribing and going back to Apple Music.",
+    "conversation_context": "We're sad to hear about that. Let us know if there's anything we can do to change your mind /PL",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "We're sad to hear about that. Let us know if there's anything we can do to change your mind /PL",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0156",
+    "customer_tweet_id": "2294411",
+    "customer_message": "please add “put em under pressure” absolutely ridiculous its not on Spotify #COYBIG #ireland thanks lads 🇮🇪",
+    "conversation_context": "We’ll have it available to you as soon as it’s available to us! /DF",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "We’ll have it available to you as soon as it’s available to us! /DF",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0157",
+    "customer_tweet_id": "741210",
+    "customer_message": "Sorry but your search is pretty awful",
+    "conversation_context": "Hey Christian, help's here! Can you tell us what's happening exactly when you're using the Search bar? /RR",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey Christian, help's here! Can you tell us what's happening exactly when you're using the Search bar? /RR",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0158",
+    "customer_tweet_id": "901653",
+    "customer_message": "you put three ads in a row. Why do you hate me?",
+    "conversation_context": "Hey! Thanks for your feedback - we'll pass it on. For now, check out if you haven't had a subscription before /RA",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! Thanks for your feedback - we'll pass it on. For now, check out if you haven't had a subscription before /RA",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0159",
+    "customer_tweet_id": "817149",
+    "customer_message": "Dear , never again. Thank u.",
+    "conversation_context": "Thanks for the feedback! Daily Mix is based on your music taste, so we’d love to know how it’s doing. We'll let the right folks know /SU",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Thanks for the feedback! Daily Mix is based on your music taste, so we’d love to know how it’s doing. We'll let the right folks know /SU",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0160",
+    "customer_tweet_id": "2485968",
+    "customer_message": "Please, is there a way to filter out Cover songs? My Spotify plays songs I even hate the originals of! It's getting quite ridiculous in my Discover Weekly. Sigh.",
+    "conversation_context": "Hi Linda. Sorry to hear Discover Weekly wasn’t to your liking this week! It’ll be re-tuned on Monday. Check out Release Radar in the meantime /QI",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi Linda. Sorry to hear Discover Weekly wasn’t to your liking this week! It’ll be re-tuned on Monday. Check out Release Radar in the meantime /QI",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0161",
+    "customer_tweet_id": "2251540",
+    "customer_message": "can we get support for iPhone X please? Love Spotify but the app looks awful and outdated on this new phone.",
+    "conversation_context": "Hey! Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated /DF",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! Don't worry, we're on it. Our developers are looking into this, and we'll keep everyone updated /DF",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0162",
+    "customer_tweet_id": "1049982",
+    "customer_message": "Goodbye , cancelling and moving to Apple Music because there is no app for Apple Watch (I need/use for working out)",
+    "conversation_context": "Hi Gregory! We're sorry to see you go. You can find future updates for the idea here: /T",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi Gregory! We're sorry to see you go. You can find future updates for the idea here: /T",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0163",
+    "customer_tweet_id": "56067",
+    "customer_message": "How do we hide this “Find Friends” window on the Mac app? I don’t use it and it’s a waste of space.",
+    "conversation_context": "Hey Michael! You can hide that section by clicking View &gt; unchecking Right Sidebar. If there's anything else, just give us a shout /RH",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey Michael! You can hide that section by clicking View &gt; unchecking Right Sidebar. If there's anything else, just give us a shout /RH",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0164",
+    "customer_tweet_id": "1077552",
+    "customer_message": "Hey do you know what alphabetical order is? Quit suggesting russ liquid before russ issa hassle (no hate,mad love to russ liquid🙏🏽)",
+    "conversation_context": "Hi there. Thanks for bringing this up. Rest assured, your feedback will be passed on to the right folks /JU",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi there. Thanks for bringing this up. Rest assured, your feedback will be passed on to the right folks /JU",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0165",
+    "customer_tweet_id": "1457468",
+    "customer_message": "my account was cancelled for some reason without me actually cancelling it.. pls help",
+    "conversation_context": "Hey Marcus! Can you DM us your account's username and email address? We'll take a look backstage /TF",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey Marcus! Can you DM us your account's username and email address? We'll take a look backstage /TF",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0166",
+    "customer_tweet_id": "1067249",
+    "customer_message": "It says you are not planning on doing this so it would be a waste of time, supporting that app would be much more beneficial for you surely",
+    "conversation_context": "Sorry to hear you feel this way, but we'll be sure to pass your feedback on to the right folks. We'll be here if you ever need us again /CH",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Sorry to hear you feel this way, but we'll be sure to pass your feedback on to the right folks. We'll be here if you ever need us again /CH",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0167",
+    "customer_tweet_id": "2289760",
+    "customer_message": "Finished a 1 hr + gym trip with only my Watch and AirPods. 2018 is going to be a great year for Apple Music and Siri. Also, not sure why Spotify hasn’t made a Watch app yet. Help us help you",
+    "conversation_context": "Hey Sap! Check out the official idea and add your vote to let our devs know it's something you'd like to see: /GS",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey Sap! Check out the official idea and add your vote to let our devs know it's something you'd like to see: /GS",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0168",
+    "customer_tweet_id": "979890",
+    "customer_message": "I know, I’m done with it tbh",
+    "conversation_context": "Hi! There's currently a 10k limit in Your Music (Songs + Albums + Artists). More info here: /DR",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi! There's currently a 10k limit in Your Music (Songs + Albums + Artists). More info here: /DR",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0169",
+    "customer_tweet_id": "260886",
+    "customer_message": "and Queue? I have a chromebook and this is fucking terrible",
+    "conversation_context": "Hey there. We hear you! Not to worry, we'll make sure to get your idea over to the right folks /JP",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey there. We hear you! Not to worry, we'll make sure to get your idea over to the right folks /JP",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0170",
+    "customer_tweet_id": "48074",
+    "customer_message": "Hate to burst ur bubble but",
+    "conversation_context": "Hey David! We don't currently offer Filipino support, but we can help out in English via Twitter. We hope that's cool with you /GU",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey David! We don't currently offer Filipino support, but we can help out in English via Twitter. We hope that's cool with you /GU",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0171",
+    "customer_tweet_id": "2930432",
+    "customer_message": "I have Apple Music but like a broke bitch and can’t even pay 5 dollars a month",
+    "conversation_context": "Hey! If you're currently enrolled and attending classes at an accredited higher education institution such as a college or university, you should be able to subscribe for the student discount through /RC",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! If you're currently enrolled and attending classes at an accredited higher education institution such as a college or university, you should be able to subscribe for the student discount through /RC",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0172",
+    "customer_tweet_id": "2444269",
+    "customer_message": ". Been trying to add my dad on my Spotify premium since yesterday. I might just switch to Apple Music. .",
+    "conversation_context": "Hey Akash! Could you send us a DM with your and your dad's usernames or accounts' email addresses? We'll take a look backstage /CH",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey Akash! Could you send us a DM with your and your dad's usernames or accounts' email addresses? We'll take a look backstage /CH",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0173",
+    "customer_tweet_id": "1069340",
+    "customer_message": "Just got a Fam+Friends account but cannot add housemates to it. Getting extremely frustrated.",
+    "conversation_context": "Hi Trevor, we're here to help. Can you DM us the accounts' email addresses? We'll check backstage /AC",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hi Trevor, we're here to help. Can you DM us the accounts' email addresses? We'll check backstage /AC",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0174",
+    "customer_tweet_id": "2154927",
+    "customer_message": "yo your commercials/ads are ridiculous",
+    "conversation_context": "Hey! Can you tell us more about what's happening? We'll see how we can help /AY",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! Can you tell us more about what's happening? We'll see how we can help /AY",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0175",
+    "customer_tweet_id": "353695",
+    "customer_message": "I fkn hate cause they don't have any Altho I remember Adi telling me something about she was gonna be on there soon.",
+    "conversation_context": "Hey! We’d love to have all of their stuff available, but we have some info about content here: /CB",
+    "intent": "Complaint",
+    "expected_action": "ESCALATE",
+    "reference_reply_or_key_points": "Hey! We’d love to have all of their stuff available, but we have some info about content here: /CB",
+    "notes": "Labelled as 'Complaint' based on explicit message keyword & intent taxonomy criteria."
+  },
+  {
+    "id": "golden_0176",
+    "customer_tweet_id": "1421410",
+    "customer_message": "WTF is wrong with you? Why did you take It's So Easy off Appetite for Destruction?",
+    "conversation_context": "Sometimes content gets temporarily removed because of licensing changes. Hopefully we'll have it available again soon! /SU",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Sometimes content gets temporarily removed because of licensing changes. Hopefully we'll have it available again soon! /SU",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0177",
+    "customer_tweet_id": "617831",
+    "customer_message": "Can you follow me?",
+    "conversation_context": "Hey Matteo! We gave you a follow. Hope it brightens up your day. If you need help with anything else, just give us a shout. Otherwise, have a... 😉 /GU",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey Matteo! We gave you a follow. Hope it brightens up your day. If you need help with anything else, just give us a shout. Otherwise, have a... 😉 /GU",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0178",
+    "customer_tweet_id": "1079427",
+    "customer_message": "It’s a real shame because it’s making think real hard about joining",
+    "conversation_context": "We're sorry to hear that. You can show your support for the idea here: /KL",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We're sorry to hear that. You can show your support for the idea here: /KL",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0179",
+    "customer_tweet_id": "2165584",
+    "customer_message": "Thank you!",
+    "conversation_context": "You're welcome! Let us know if you have any other questions. We'd be... /DR",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "You're welcome! Let us know if you have any other questions. We'd be... /DR",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0180",
+    "customer_tweet_id": "1224509",
+    "customer_message": "Excuse me I can't watch the video 😭😭😭😭",
+    "conversation_context": "Hey there! Some content may become unavailable due to licensing agreements. There's more info about it here: /KB",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey there! Some content may become unavailable due to licensing agreements. There's more info about it here: /KB",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0181",
+    "customer_tweet_id": "2905923",
+    "customer_message": "OK I did that and it seems OK for now",
+    "conversation_context": "Great! Let us know if anything else comes up. Have a... /JP",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Great! Let us know if anything else comes up. Have a... /JP",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0182",
+    "customer_tweet_id": "426787",
+    "customer_message": "thanks, but the vote button says \"sorry you can't like this post\" ? and it's under consideration since 10 months back?",
+    "conversation_context": "Hmm, that's odd. Don't worry. We'll let our devs know this is something you'd like to see. Let us know if you have other questions /GK",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hmm, that's odd. Don't worry. We'll let our devs know this is something you'd like to see. Let us know if you have other questions /GK",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0183",
+    "customer_tweet_id": "1774163",
+    "customer_message": "Thank you I read it and it seems like it’s not coming back right or will you guys be bringing it back later on after adjustments ?",
+    "conversation_context": "We don't have any info on this right now, but we'll let the right team know it's something you'd like to have again /JL",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We don't have any info on this right now, but we'll let the right team know it's something you'd like to have again /JL",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0184",
+    "customer_tweet_id": "233147",
+    "customer_message": "thank you 💖💖",
+    "conversation_context": "You're welcome 💚 Enjoy your music! /CX",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "You're welcome 💚 Enjoy your music! /CX",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0185",
+    "customer_tweet_id": "83657",
+    "customer_message": "Hi! Can you please check your dms?",
+    "conversation_context": "Hi! We've just sent a DM your way. Let's carry on chatting there /JN",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi! We've just sent a DM your way. Let's carry on chatting there /JN",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0186",
+    "customer_tweet_id": "2978437",
+    "customer_message": "() WHY?! WHY?!?!?! Why would you take August d off? Why? Also where’s Lemonade?! #SHOOKETH",
+    "conversation_context": "Hey McKayla! Sometimes content gets removed due to licensing changes. As for Lemonade, we're working on it, and we hope to have it available soon. There's more info about Spotify content here: /AR",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hey McKayla! Sometimes content gets removed due to licensing changes. As for Lemonade, we're working on it, and we hope to have it available soon. There's more info about Spotify content here: /AR",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0187",
+    "customer_tweet_id": "902411",
+    "customer_message": "thank you",
+    "conversation_context": "You're welcome! If you ever need anything else, just shout and we'll come running 🏃 /JX",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "You're welcome! If you ever need anything else, just shout and we'll come running 🏃 /JX",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0188",
+    "customer_tweet_id": "899978",
+    "customer_message": "It’s set up to Canada. And yes please get it back on that songs a banger",
+    "conversation_context": "Sometimes content gets removed because of licensing or other legal issues. Hopefully we'll have it available again soon /MV",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Sometimes content gets removed because of licensing or other legal issues. Hopefully we'll have it available again soon /MV",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0189",
+    "customer_tweet_id": "2427669",
+    "customer_message": "i think most of the listeners just want the original version back and don’t appreciate the fact it just changed without any warning from anyone",
+    "conversation_context": "Sorry to hear you feel that way. We don't have any info on this right now, but we'll let the right team know about your comments /JE",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Sorry to hear you feel that way. We don't have any info on this right now, but we'll let the right team know about your comments /JE",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0190",
+    "customer_tweet_id": "2070541",
+    "customer_message": "John JR Silly Hope you get soon &amp; Get Irish Rovers Friday Morning.",
+    "conversation_context": "Hi John! Sometimes agreements are ongoing, or can't be reached with the content provider, but we're keeping our fingers crossed /RK",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Hi John! Sometimes agreements are ongoing, or can't be reached with the content provider, but we're keeping our fingers crossed /RK",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0191",
+    "customer_tweet_id": "2338002",
+    "customer_message": "plug!!",
+    "conversation_context": "Awesome! Let us know if you ever need us again. We'd be... 🙂 /NS",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "Awesome! Let us know if you ever need us again. We'd be... 🙂 /NS",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0192",
+    "customer_tweet_id": "980265",
+    "customer_message": "I didn't opt-in to concert news emails and now I need a presale code for First Aid Kit tickets in Seattle. I haz sad.",
+    "conversation_context": "2: notifications at to make sure you won't miss out in the future. We hope this helps /LP",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "2: notifications at to make sure you won't miss out in the future. We hope this helps /LP",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0193",
+    "customer_tweet_id": "980265",
+    "customer_message": "I didn't opt-in to concert news emails and now I need a presale code for First Aid Kit tickets in Seattle. I haz sad.",
+    "conversation_context": "1: Hi Sonja! We’re afraid the codes are unique and sent to those who listen to the First Aid Kit the most. We'd suggest enabling your...",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "1: Hi Sonja! We’re afraid the codes are unique and sent to those who listen to the First Aid Kit the most. We'd suggest enabling your...",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0194",
+    "customer_tweet_id": "1240601",
+    "customer_message": "Okay, so is the album gonna be available in Mexico? It was at first, issues began to appear yesterday",
+    "conversation_context": "We're afraid we don't have any more info to share right now, but we'll make sure to pass your thoughts on to the right team /AU",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We're afraid we don't have any more info to share right now, but we'll make sure to pass your thoughts on to the right team /AU",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0195",
+    "customer_tweet_id": "2599169",
+    "customer_message": "Holiday and BOBD is finally split haha THANK YOU!!!!!!!!",
+    "conversation_context": "You're welcome! If you ever need us again, just give us a shout. 🙂 /LO",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "You're welcome! If you ever need us again, just give us a shout. 🙂 /LO",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0196",
+    "customer_tweet_id": "1719762",
+    "customer_message": "hope to hear from u soon...",
+    "conversation_context": "No worries. /GK",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "No worries. /GK",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0197",
+    "customer_tweet_id": "1559557",
+    "customer_message": "Thanks!",
+    "conversation_context": "You're welcome! If you ever need us again, know that we're always... 🙂 /AR",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "You're welcome! If you ever need us again, know that we're always... 🙂 /AR",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0198",
+    "customer_tweet_id": "301900",
+    "customer_message": "I’ll be waiting till next Friday hoping for some ear porn. Thanks for chatting",
+    "conversation_context": "No worries! If you ever need us again, just shout 🙂 /MQ",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "No worries! If you ever need us again, just shout 🙂 /MQ",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  },
+  {
+    "id": "golden_0199",
+    "customer_tweet_id": "1622796",
+    "customer_message": "I also just replied ...",
+    "conversation_context": "We've just replied 🙂 /I",
+    "intent": "Other",
+    "expected_action": "AUTO_HANDLED",
+    "reference_reply_or_key_points": "We've just replied 🙂 /I",
+    "notes": "General message without specific taxonomy keyword hits; labelled as Other."
+  }
+]

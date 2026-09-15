@@ -1,0 +1,90 @@
+{
+  "title": "Hiver Support Agent Engineering & Architectural Decision Log",
+  "total_decisions": 12,
+  "decisions": [
+    {
+      "id": "DEC-001",
+      "decision": "Selection of SpotifyCares as Target Support Brand",
+      "alternatives": ["AppleSupport", "AmazonHelp", "Uber_Support"],
+      "reason": "SpotifyCares features high conversation volume on Twitter (88.4k messages) with distinct, well-defined technical and billing customer support intents.",
+      "tradeoff": "Model is specialized for music streaming support; adapting to e-commerce or ride-sharing requires re-indexing the reference corpus."
+    },
+    {
+      "id": "DEC-002",
+      "decision": "Hash-Based Deterministic Train/Eval Splitting",
+      "alternatives": ["Random train_test_split", "Time-based temporal split"],
+      "reason": "Applying MD5 hashing to customer_tweet_id guarantees strictly deterministic, reproducible 80/20 splitting with 0% data leakage.",
+      "tradeoff": "Does not model temporal distribution shifts over multi-year dataset periods."
+    },
+    {
+      "id": "DEC-003",
+      "decision": "9-Intent Canonical Taxonomy Definition",
+      "alternatives": ["3-Intent high-level mapping", "25-Intent fine-grained taxonomy"],
+      "reason": "9 intents strike an optimal balance between actionable customer routing granularity and high intent classification performance.",
+      "tradeoff": "Sub-intents (e.g. Student Discount vs Family Plan) are merged under Billing / Subscription."
+    },
+    {
+      "id": "DEC-004",
+      "decision": "Hybrid Classification Engine (LLM + Rule Fallback)",
+      "alternatives": ["Pure LLM prompt classifier", "Pure Scikit-Learn SVM"],
+      "reason": "Combining zero-shot LLM classification with rule-assisted fallback ensures 100% classification coverage even during API rate limits.",
+      "tradeoff": "Rule fallback requires manual keyword signal dictionary maintenance."
+    },
+    {
+      "id": "DEC-005",
+      "decision": "TF-IDF N-Gram Cosine Similarity for RAG Retrieval",
+      "alternatives": ["Dense vector embeddings (OpenAI / MiniLM)", "BM25 keyword search"],
+      "reason": "TF-IDF with n-grams (1-2) delivers sub-millisecond retrieval over 33,896 pairs without requiring external vector database infrastructure.",
+      "tradeoff": "Struggles with out-of-vocabulary typos and semantic paraphrasing compared to dense embeddings."
+    },
+    {
+      "id": "DEC-006",
+      "decision": "Stratified Golden Evaluation Sampling (200 Examples)",
+      "alternatives": ["Random 200 sampling", "Entire 8.3k eval pool evaluation"],
+      "reason": "Stratified sampling ensures balanced representation across minority intents (e.g. Content/Library) for reliable F1 measurement.",
+      "tradeoff": "200 examples represents ~2.4% of the evaluation split pool."
+    },
+    {
+      "id": "DEC-007",
+      "decision": "Multi-Factor Risk Assessment Escalation Engine",
+      "alternatives": ["Single confidence threshold check", "Pure LLM binary escalation"],
+      "reason": "Combines intent confidence, retrieval similarity, sensitive keyword triggers ('hack', 'fraud'), and conflict checks for fail-safe escalation.",
+      "tradeoff": "Generates a high false-positive escalation rate (61.5% predicted rate vs 11.5% gold rate)."
+    },
+    {
+      "id": "DEC-008",
+      "decision": "Historical Grounding Prompt Template for Reply Generation",
+      "alternatives": ["Un-grounded zero-shot generation", "Direct template copy-paste"],
+      "reason": "Injecting top-3 historical brand resolution pairs into the generator prompt enforces brand voice and factual accuracy.",
+      "tradeoff": "Increases prompt token length by ~450 tokens per request."
+    },
+    {
+      "id": "DEC-009",
+      "decision": "Dual-Mode Architecture (Automatic MOCK vs LLM Mode)",
+      "alternatives": ["Hardcoded API key requirement", "Mock-only implementation"],
+      "reason": "Allows full offline execution and unit testing without API keys, while automatically leveraging Gemini API when GEMINI_API_KEY is present.",
+      "tradeoff": "Requires maintaining parallel mock generation heuristics."
+    },
+    {
+      "id": "DEC-010",
+      "decision": "Multi-Dimensional LLM-as-a-Judge Evaluation Rubric",
+      "alternatives": ["BLEU / ROUGE string overlap metrics", "Single overall 1-5 rating"],
+      "reason": "Evaluates generated responses across 6 explicit dimensions (Helpfulness, Correctness, Grounding, Relevance, Completeness, Auto-Safety).",
+      "tradeoff": "Requires structured JSON output parsing from evaluator LLM."
+    },
+    {
+      "id": "DEC-011",
+      "decision": "Human Agreement Validation on 30-Example Sample",
+      "alternatives": ["Unvalidated LLM judge scores", "Full 200 human annotation"],
+      "reason": "Validates LLM judge alignment against human ratings (achieving 100% agreement within ±1 point) to establish evaluation credibility.",
+      "tradeoff": "Human sample size is 30 examples."
+    },
+    {
+      "id": "DEC-012",
+      "decision": "Standard Library HTTP Web Server Implementation",
+      "alternatives": ["Heavy React/Next.js stack", "FastAPI + Uvicorn server"],
+      "reason": "Python `http.server` provides zero external deployment overhead, running natively on any environment with instant startup.",
+      "tradeoff": "Lacks built-in async request pipelining of ASGI servers."
+    }
+  ]
+}

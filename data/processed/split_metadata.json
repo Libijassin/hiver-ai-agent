@@ -1,0 +1,9 @@
+{
+  "brand": "SpotifyCares",
+  "total_pairs": 42276,
+  "reference_pairs": 33896,
+  "eval_pairs": 8380,
+  "eval_ratio": 0.2,
+  "random_seed": 42,
+  "split_method": "deterministic_hash_on_customer_tweet_id"
+}
