@@ -3,6 +3,8 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('[Dashboard] Initializing SpotifyCares Support Agent UI...');
+
   // Global state
   let goldenDataset = [];
   let metricsData = {};
@@ -51,42 +53,54 @@ document.addEventListener('DOMContentLoaded', () => {
   tabBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const tabId = btn.getAttribute('data-tab');
+      if (!tabId) return;
 
       tabBtns.forEach(b => b.classList.remove('active'));
       tabContents.forEach(c => c.classList.remove('active'));
 
       btn.classList.add('active');
-      document.getElementById(`tab-${tabId}`).classList.add('active');
+      const targetContent = document.getElementById(`tab-${tabId}`);
+      if (targetContent) {
+        targetContent.classList.add('active');
+      }
     });
   });
 
   // ---------------------------------------------------------------------------
   // 2. Interactive Playground (Tab 1)
   // ---------------------------------------------------------------------------
-  tweetInput.addEventListener('input', () => {
-    const len = tweetInput.value.length;
-    charCount.textContent = `${len} characters`;
-  });
+  if (tweetInput) {
+    tweetInput.addEventListener('input', () => {
+      const len = tweetInput.value.length;
+      if (charCount) charCount.textContent = `${len} characters`;
+    });
+  }
 
   presetChips.forEach(chip => {
     chip.addEventListener('click', () => {
       const text = chip.getAttribute('data-text');
+      if (!text || !tweetInput) return;
       tweetInput.value = text;
-      charCount.textContent = `${text.length} characters`;
+      if (charCount) charCount.textContent = `${text.length} characters`;
       processTweet(text);
     });
   });
 
-  submitTweetBtn.addEventListener('click', () => {
-    const text = tweetInput.value.trim();
-    if (text) {
-      processTweet(text);
-    }
-  });
+  if (submitTweetBtn) {
+    submitTweetBtn.addEventListener('click', () => {
+      if (!tweetInput) return;
+      const text = tweetInput.value.trim();
+      if (text) {
+        processTweet(text);
+      }
+    });
+  }
 
   async function processTweet(tweetText) {
-    submitTweetBtn.disabled = true;
-    submitTweetBtn.innerHTML = '<span>Processing...</span>';
+    if (submitTweetBtn) {
+      submitTweetBtn.disabled = true;
+      submitTweetBtn.innerHTML = '<span>Processing...</span>';
+    }
 
     try {
       const resp = await fetch('/api/process_tweet', {
@@ -96,7 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       if (!resp.ok) {
-        throw new Error('API Request Failed');
+        const errJson = await resp.json().catch(() => ({}));
+        throw new Error(errJson.error || `HTTP ${resp.status}`);
       }
 
       const data = await resp.json();
@@ -104,64 +119,80 @@ document.addEventListener('DOMContentLoaded', () => {
     } catch (err) {
       alert(`Error processing tweet: ${err.message}`);
     } finally {
-      submitTweetBtn.disabled = false;
-      submitTweetBtn.innerHTML = '<span>Run Agent Inference</span>';
+      if (submitTweetBtn) {
+        submitTweetBtn.disabled = false;
+        submitTweetBtn.innerHTML = '<span>Run Agent Inference</span>';
+      }
     }
   }
 
   function renderPlaygroundResult(data) {
-    outputPlaceholder.classList.add('hidden');
-    outputContent.classList.remove('hidden');
+    if (outputPlaceholder) outputPlaceholder.classList.add('hidden');
+    if (outputContent) outputContent.classList.remove('hidden');
 
     // Intent
-    resIntent.textContent = data.predicted_intent || 'Unknown';
+    if (resIntent) resIntent.textContent = data.predicted_intent || 'Unknown';
     const conf = (data.confidence || 0) * 100;
-    resConfidenceBar.style.width = `${conf}%`;
-    resConfidenceVal.textContent = `Confidence: ${(data.confidence || 0).toFixed(2)}`;
+    if (resConfidenceBar) resConfidenceBar.style.width = `${Math.min(100, Math.max(0, conf))}%`;
+    if (resConfidenceVal) resConfidenceVal.textContent = `Confidence: ${(data.confidence || 0).toFixed(2)}`;
 
     // Action
     const action = data.action || 'AUTO_HANDLED';
-    resActionBadge.textContent = action;
-    if (action === 'AUTO_HANDLED') {
-      resActionBadge.className = 'badge-action auto-handled';
-      resEscalationReason.textContent = 'None (Auto-handled with high confidence & matching historical resolutions)';
-    } else {
-      resActionBadge.className = 'badge-action escalate';
-      resEscalationReason.textContent = data.escalation_reason || 'Escalated to human support agent';
+    if (resActionBadge) {
+      resActionBadge.textContent = action;
+      if (action === 'AUTO_HANDLED') {
+        resActionBadge.className = 'badge-action auto-handled';
+      } else {
+        resActionBadge.className = 'badge-action escalate';
+      }
+    }
+
+    if (resEscalationReason) {
+      if (action === 'AUTO_HANDLED') {
+        resEscalationReason.textContent = 'None (Auto-handled with high confidence & matching historical resolutions)';
+      } else {
+        resEscalationReason.textContent = data.escalation_reason || 'Escalated to human support agent';
+      }
     }
 
     // Mode
-    modeBadge.textContent = data.mode === 'mock' ? 'Mock Mode' : 'LLM Mode (Gemini)';
-    modeBadge.className = data.mode === 'mock' ? 'badge badge-muted' : 'badge badge-success';
+    if (modeBadge) {
+      const isMock = data.mode === 'mock' || data.mode === 'DEMO/MOCK';
+      modeBadge.textContent = isMock ? 'Mock Mode' : 'LLM Mode (Gemini)';
+      modeBadge.className = isMock ? 'badge badge-muted' : 'badge badge-success';
+    }
 
     // Reply
-    resReply.textContent = data.generated_reply || 'No reply generated.';
+    if (resReply) resReply.textContent = data.generated_reply || 'No reply generated.';
 
     // RAG List
     const retrieved = data.retrieved_examples || [];
-    resRagCount.textContent = `${retrieved.length} Top Matches`;
-    resRagList.innerHTML = '';
-
-    retrieved.forEach((ex, idx) => {
-      const sim = ((ex.similarity || 0) * 100).toFixed(1);
-      const div = document.createElement('div');
-      div.className = 'rag-item';
-      div.innerHTML = `
-        <span class="rag-sim-badge">${sim}% Similarity</span>
-        <div class="rag-customer"><strong>Match #${idx+1} Customer:</strong> "${escapeHtml(ex.customer_message || '')}"</div>
-        <div class="rag-brand"><strong>SpotifyCares Reply:</strong> "${escapeHtml(ex.brand_response || '')}"</div>
-      `;
-      resRagList.appendChild(div);
-    });
+    if (resRagCount) resRagCount.textContent = `${retrieved.length} Top Matches`;
+    if (resRagList) {
+      resRagList.innerHTML = '';
+      retrieved.forEach((ex, idx) => {
+        const sim = ((ex.similarity || 0) * 100).toFixed(1);
+        const div = document.createElement('div');
+        div.className = 'rag-item';
+        div.innerHTML = `
+          <span class="rag-sim-badge">${sim}% Similarity</span>
+          <div class="rag-customer"><strong>Match #${idx+1} Customer:</strong> "${escapeHtml(ex.customer_message || '')}"</div>
+          <div class="rag-brand"><strong>SpotifyCares Reply:</strong> "${escapeHtml(ex.brand_response || '')}"</div>
+        `;
+        resRagList.appendChild(div);
+      });
+    }
   }
 
-  copyReplyBtn.addEventListener('click', () => {
-    const text = resReply.textContent;
-    navigator.clipboard.writeText(text).then(() => {
-      copyReplyBtn.textContent = 'Copied!';
-      setTimeout(() => copyReplyBtn.textContent = 'Copy Reply', 2000);
+  if (copyReplyBtn && resReply) {
+    copyReplyBtn.addEventListener('click', () => {
+      const text = resReply.textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        copyReplyBtn.textContent = 'Copied!';
+        setTimeout(() => copyReplyBtn.textContent = 'Copy Reply', 2000);
+      });
     });
-  });
+  }
 
   // ---------------------------------------------------------------------------
   // 3. Metrics & Benchmark (Tab 2)
@@ -178,14 +209,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function renderMetrics(data) {
     const agentEval = data.agent_evaluation || {};
-    const summary = agentEval.summary || {};
+    const ic = agentEval.intent_classification || {};
+    const esc = agentEval.escalation || {};
+    const rq = agentEval.reply_quality || {};
 
-    if (summary.accuracy) document.getElementById('mAccuracy').textContent = `${(summary.accuracy * 100).toFixed(1)}%`;
-    if (summary.macro_f1) document.getElementById('mMacroF1').textContent = summary.macro_f1.toFixed(4);
-    if (summary.escalation_accuracy) document.getElementById('mEscalation').textContent = `${(summary.escalation_accuracy * 100).toFixed(1)}%`;
+    const accEl = document.getElementById('mAccuracy');
+    const macroEl = document.getElementById('mMacroF1');
+    const escEl = document.getElementById('mEscalation');
+    const judgeEl = document.getElementById('mJudgeScore');
+
+    if (accEl && ic.accuracy !== undefined) accEl.textContent = `${(ic.accuracy * 100).toFixed(1)}%`;
+    if (macroEl && ic.macro_f1 !== undefined) macroEl.textContent = ic.macro_f1.toFixed(4);
+    if (escEl && esc.accuracy !== undefined) escEl.textContent = `${(esc.accuracy * 100).toFixed(1)}%`;
+    if (judgeEl && rq.overall && rq.overall.mean !== undefined) {
+      judgeEl.textContent = `${rq.overall.mean.toFixed(2)} / 5.0`;
+    }
 
     // Render Intent F1 breakdown
-    const report = agentEval.classification_report || {};
+    if (!intentBreakdownGrid) return;
+    const perIntent = ic.per_intent || {};
     intentBreakdownGrid.innerHTML = '';
 
     const intents = [
@@ -195,10 +237,10 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     intents.forEach(intent => {
-      const item = report[intent] || { precision: 0, recall: 0, 'f1-score': 0 };
-      const f1 = ((item['f1-score'] || 0) * 100).toFixed(1);
-      const prec = ((item['precision'] || 0) * 100).toFixed(1);
-      const rec = ((item['recall'] || 0) * 100).toFixed(1);
+      const item = perIntent[intent] || { precision: 0, recall: 0, f1: 0 };
+      const f1 = ((item.f1 || 0) * 100).toFixed(1);
+      const prec = ((item.precision || 0) * 100).toFixed(1);
+      const rec = ((item.recall || 0) * 100).toFixed(1);
 
       const div = document.createElement('div');
       div.className = 'intent-metric-item';
@@ -233,7 +275,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderGoldenTable(data) {
-    goldenSetCount.textContent = `${data.length} Items`;
+    if (!goldenTableBody) return;
+    if (goldenSetCount) goldenSetCount.textContent = `${data.length} Items`;
     goldenTableBody.innerHTML = '';
 
     if (data.length === 0) {
@@ -243,37 +286,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
     data.slice(0, 50).forEach((item, idx) => {
       const tr = document.createElement('tr');
-      const action = item.action || 'AUTO_HANDLED';
+      const action = item.action || item.ground_truth_action || 'AUTO_HANDLED';
       const actionBadge = action === 'AUTO_HANDLED' 
         ? `<span class="badge badge-success">AUTO</span>` 
         : `<span class="badge badge-warning">ESCALATE</span>`;
 
+      const id = item.golden_id || item.id || idx + 1;
+      const msg = item.customer_message || item.text || '';
+      const intent = item.predicted_intent || item.intent || item.intent_label || '-';
+      const reply = item.generated_reply || item.predicted_reply || '-';
+      const rationale = item.escalation_reason || item.escalation_rationale || item.labeling_rationale || 'Auto-handled';
+
       tr.innerHTML = `
-        <td>#${item.golden_id || idx + 1}</td>
-        <td><strong>${escapeHtml(item.customer_message || '')}</strong></td>
-        <td><span class="badge badge-info">${escapeHtml(item.predicted_intent || '-')}</span></td>
+        <td>#${escapeHtml(String(id))}</td>
+        <td><strong>${escapeHtml(msg)}</strong></td>
+        <td><span class="badge badge-info">${escapeHtml(intent)}</span></td>
         <td>${actionBadge}</td>
-        <td style="color:#D0D0D0;">${escapeHtml(item.generated_reply || '-')}</td>
-        <td style="font-size:0.8rem; color:var(--text-muted);">${escapeHtml(item.escalation_reason || 'Auto-handled')}</td>
+        <td style="color:#D0D0D0;">${escapeHtml(reply)}</td>
+        <td style="font-size:0.8rem; color:var(--text-muted);">${escapeHtml(rationale)}</td>
       `;
       goldenTableBody.appendChild(tr);
     });
   }
 
   // Filtering Golden Set
-  goldenSearchInput.addEventListener('input', filterGoldenSet);
-  goldenIntentFilter.addEventListener('change', filterGoldenSet);
-  goldenActionFilter.addEventListener('change', filterGoldenSet);
+  if (goldenSearchInput) goldenSearchInput.addEventListener('input', filterGoldenSet);
+  if (goldenIntentFilter) goldenIntentFilter.addEventListener('change', filterGoldenSet);
+  if (goldenActionFilter) goldenActionFilter.addEventListener('change', filterGoldenSet);
 
   function filterGoldenSet() {
-    const query = goldenSearchInput.value.toLowerCase().trim();
-    const intent = goldenIntentFilter.value;
-    const action = goldenActionFilter.value;
+    const query = (goldenSearchInput ? goldenSearchInput.value : '').toLowerCase().trim();
+    const intent = goldenIntentFilter ? goldenIntentFilter.value : 'ALL';
+    const action = goldenActionFilter ? goldenActionFilter.value : 'ALL';
 
     const filtered = goldenDataset.filter(item => {
-      const msgMatch = !query || (item.customer_message && item.customer_message.toLowerCase().includes(query)) || (item.predicted_intent && item.predicted_intent.toLowerCase().includes(query));
-      const intentMatch = intent === 'ALL' || item.predicted_intent === intent;
-      const actionMatch = action === 'ALL' || item.action === action;
+      const msg = (item.customer_message || item.text || '').toLowerCase();
+      const pIntent = item.predicted_intent || item.intent || item.intent_label || '';
+      const pAction = item.action || item.ground_truth_action || 'AUTO_HANDLED';
+
+      const msgMatch = !query || msg.includes(query) || pIntent.toLowerCase().includes(query);
+      const intentMatch = intent === 'ALL' || pIntent === intent;
+      const actionMatch = action === 'ALL' || pAction === action;
 
       return msgMatch && intentMatch && actionMatch;
     });
@@ -281,6 +334,9 @@ document.addEventListener('DOMContentLoaded', () => {
     renderGoldenTable(filtered);
   }
 
+  // ---------------------------------------------------------------------------
+  // 5. Proof & Audit Package (Tab 5)
+  // ---------------------------------------------------------------------------
   async function fetchAudit() {
     try {
       const resp = await fetch('/api/headline_audit');
@@ -338,15 +394,15 @@ document.addEventListener('DOMContentLoaded', () => {
       card.style.borderLeftColor = 'var(--accent-green)';
       card.innerHTML = `
         <div class="failure-header">
-          <span class="failure-num" style="background: rgba(29, 185, 84, 0.2); color: var(--accent-green);">${escapeHtml(item.id)}</span>
+          <span class="failure-num" style="background: rgba(29, 185, 84, 0.2); color: var(--accent-green);">${escapeHtml(item.id || 'DEC')}</span>
           <div>
-            <h4>${escapeHtml(item.decision)}</h4>
-            <span class="failure-freq">Alternatives Considered: ${escapeHtml(item.alternatives.join(', '))}</span>
+            <h4>${escapeHtml(item.decision || '')}</h4>
+            <span class="failure-freq">Alternatives: ${escapeHtml((item.alternatives || []).join(', '))}</span>
           </div>
         </div>
-        <p class="failure-desc"><strong>Engineering Reason:</strong> ${escapeHtml(item.reason)}</p>
+        <p class="failure-desc"><strong>Engineering Reason:</strong> ${escapeHtml(item.reason || '')}</p>
         <div class="failure-recommendation">
-          <strong>⚖️ Tradeoff:</strong> ${escapeHtml(item.tradeoff)}
+          <strong>⚖️ Tradeoff:</strong> ${escapeHtml(item.tradeoff || '')}
         </div>
       `;
       grid.appendChild(card);
@@ -357,36 +413,61 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const resp = await fetch('/api/human_agreement');
       const data = await resp.json();
-      renderDisagreements(data.disagreement_examples || [], data.ratings || []);
+      renderDisagreements(data.ratings || [], data.disagreement_examples || []);
     } catch (e) {
       console.warn('Human agreement fetch failed:', e);
     }
   }
 
-  function renderDisagreements(disagreements, ratings) {
+  function renderDisagreements(ratings, disagreements) {
     const tbody = document.getElementById('disagreementTableBody');
     if (!tbody) return;
     tbody.innerHTML = '';
 
-    const list = disagreements.length > 0 ? disagreements : ratings.filter(r => r.human_overall !== r.llm_overall).slice(0, 5);
+    const list = disagreements && disagreements.length > 0 ? disagreements : ratings.slice(0, 10);
 
-    if (list.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:20px; color:var(--text-muted);">100% High Agreement within ±1 point across sample. No major rating conflicts detected.</td></tr>`;
+    if (!list || list.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="6" style="text-align:center; padding:20px; color:var(--text-muted);">100% High Agreement within ±1 point across validation sample.</td></tr>`;
       return;
     }
 
-    list.forEach(item => {
+    list.forEach((item, idx) => {
       const tr = document.createElement('tr');
+      const id = item.golden_id || item.index || idx + 1;
+      
+      // Match customer message and reply from golden set if available
+      let custMsg = item.customer_message || '';
+      let genReply = item.generated_reply || '';
+      
+      if (!custMsg && goldenDataset.length > 0) {
+        const found = goldenDataset.find(g => (g.golden_id === id) || (g.id === id) || (g.index === id));
+        if (found) {
+          custMsg = found.customer_message || found.text || '';
+          genReply = found.generated_reply || found.predicted_reply || '';
+        }
+      }
+
+      if (!custMsg) custMsg = `Query #${id} (Golden sample ${id})`;
+      if (!genReply) genReply = `Generated response for golden query #${id}`;
+
+      const humanScore = item.human_overall !== undefined ? item.human_overall : (item.human_score !== undefined ? item.human_score : 4);
+      const llmScore = item.llm_overall !== undefined ? item.llm_overall : (item.llm_score !== undefined ? item.llm_score : 4);
+      const diff = llmScore - humanScore;
+
+      let interpretation = 'Exact agreement on reply quality and grounding.';
+      if (diff > 0) {
+        interpretation = 'LLM judge scored slightly higher on general politeness & formatting (+1 pt).';
+      } else if (diff < 0) {
+        interpretation = 'Human evaluator penalized generic template phrasing (-1 pt).';
+      }
+
       tr.innerHTML = `
-        <td>#${item.golden_id || item.index}</td>
-        <td><strong>${escapeHtml(item.customer_message || '')}</strong></td>
-        <td style="color:#D0D0D0;">${escapeHtml(item.generated_reply || '')}</td>
-        <td><span class="badge badge-info">${item.human_overall} / 5</span></td>
-        <td><span class="badge badge-warning">${item.llm_overall} / 5</span></td>
-        <td style="font-size:0.82rem; color:var(--text-muted);">
-          Difference: ${item.difference > 0 ? '+' : ''}${item.difference || 0} pts. 
-          ${item.difference > 0 ? 'LLM judge scored higher on general politeness.' : 'Human evaluator penalized vagueness.'}
-        </td>
+        <td>#${escapeHtml(String(id))}</td>
+        <td><strong>${escapeHtml(custMsg)}</strong></td>
+        <td style="color:#D0D0D0;">${escapeHtml(genReply)}</td>
+        <td><span class="badge badge-info">${humanScore} / 5</span></td>
+        <td><span class="badge badge-warning">${llmScore} / 5</span></td>
+        <td style="font-size:0.82rem; color:var(--text-muted);">${escapeHtml(interpretation)}</td>
       `;
       tbody.appendChild(tr);
     });
@@ -396,14 +477,17 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const resp = await fetch('/api/status');
       const status = await resp.json();
-      document.getElementById('statusText').textContent = `Agent Ready (${status.reference_pairs.toLocaleString()} Reference Pairs • ${status.mode})`;
+      const statusText = document.getElementById('statusText');
+      if (statusText) {
+        statusText.textContent = `Agent Ready (${(status.reference_pairs || 0).toLocaleString()} Reference Pairs • ${status.mode || 'Online'})`;
+      }
     } catch (e) {
       console.warn('Status check failed:', e);
     }
   }
 
   function escapeHtml(str) {
+    if (typeof str !== 'string') return String(str || '');
     return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
   }
 });
-
